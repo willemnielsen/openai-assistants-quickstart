@@ -1,6 +1,7 @@
 import { openai } from "@/app/openai";
 const mysql = require('mysql')
 const pullData = (table_name: string, new_table_name: string, filters: string) => {
+  console.log("test")
   // chose a random temperature and condition
   const tool_instruction = `
   Your job is to convert the filters prompt into the WHERE clause in a SQL SELECT
