@@ -1,7 +1,6 @@
 import { openai } from "@/app/openai";
-const mysql = require('mysql')
+// const mysql = require('mysql')
 const pullData = (table_name: string, new_table_name: string, filters: string) => {
-  console.log("test")
   // chose a random temperature and condition
   const tool_instruction = `
   Your job is to convert the filters prompt into the WHERE clause in a SQL SELECT
@@ -27,22 +26,22 @@ const pullData = (table_name: string, new_table_name: string, filters: string) =
   WHERE ${where_clause};
   SELECT * FROM ${new_table_name} LIMIT 5`
   // var mysql  = require('mysql');
-  var connection = mysql.createConnection({
-    user     : 'root',
-    password : 'Nola@1125',
-    database : 'dash'
-  });
-  connection.connect();
-  console.log("Connected to database, now running query")
-  const result = connection.query(query, function (error, results, fields) {
-    if (error) throw error;  
-    return {
-      "query": query,
-      "results": results
-    };
-  });
+  // var connection = mysql.createConnection({
+  //   user     : 'root',
+  //   password : 'Nola@1125',
+  //   database : 'dash'
+  // });
+  // connection.connect();
+  // console.log("Connected to database, now running query")
+  // const result = connection.query(query, function (error, results, fields) {
+  //   if (error) throw error;  
+  //   return {
+  //     "query": query,
+  //     "results": results
+  //   };
+  // });
   console.log("Query was successful, returning result")
-  return result
+  return 
 };
 
 export { pullData };
