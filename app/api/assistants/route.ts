@@ -220,36 +220,30 @@ you would call this function with the parameters:
           parameters: {
             type: "object",
             properties: {
-              "Ages": {
-                type: "object",
-                properties: {
-                  "quantities": {
-                    type: "array",
-                    items: {
-                      type: "number",
-                      description: "Each age to include, e.g 8",
-                    },
-                    description: "The age spec, e.g. Ages 8-10 -> [8, 9, 10]"
-                  },
-                  "unit": {
-                    type: "string",
-                    description: "The unit of the age, only options are 'Years', 'Grades' or 'Months'",
-                  },
-                },
-                description: 
-                "Optional argument to specify age range of programs, any if unspecified. So for an 8 year old, you would use {'quantities': [8], 'unit': 'Years'}",
-              },
-              "Department": {
+              "departments": {
                 type: "string",
                 description: 
                 "Optional argument to specify department of programs, any if unspecified. Only options are 'Basketball', 'Cheer and Dance', 'Multi-Sport' or 'Flag Football",
               },
-              "Gender": {
+              "age_range": {
+                type: "array",
+                items: {
+                  type: "string",
+                },
+                description: 
+                "Optional argument to specify department of programs So for 8 to 10 year olds, you would use [8, 9, 10], for K - 2nd graders you would use [K, 1, 2]",
+              },
+              "age_type": {
+                type: "string",
+                description: "If the age range parameter was in years put 'Years', if it was in grades put 'Grades'",
+              },
+             
+              "gender": {
                 type: "string",
                 description: 
                 "Optional argument to specify gender of programs, any if unspecified, so for 10 year old daughter you would use 'Female'",
               },
-              "Day": {
+              "days": {
                 type: "array",
                 items: {
                   type: "string"

@@ -1,38 +1,41 @@
-import programs from './ClassesCurrentFuture_09-02_tollm_withages_times.json';
+import programs from './program_data.json';
 /**
  * Retrieves a list of programs based on the specified criteria.
  * 
- * @param season - The season of the programs.
  * @param department - The department of the programs.
  * @param ages - The age range of the programs.
  * @param days - The days of the week the programs are available.
- * @param times - The times of the day the programs are available.
+ * @param gender - The gender of the programs.
  * @returns An object containing the program details.
  */
-function getPrograms(season: string = 'all',
-  department: string = 'all',
-  ages: string[] = [],
+function getPrograms(
+  department: string = 'All',
+  ages: number[] = [],
+  age_type: string = 'Years',
+  gender: string = 'Co-Ed',
   days: string[] = [],
-  times: string[] = []) {
+  ) {
+    // convert the grades if age_type is 'Grades'
+    if (age_type === 'Grades') {
+      ages = [ages[0] + 2, ages[1] + 3];
+    }
+  function rangeoverlap(r1: number[], r2: number[]): boolean {
+    // check if the age ranges overlap
+    return (r1[0] >= r2[0] && r1[0] <= r2[1]) || (r1[1] >= r2[0] && r1[1] <= r2[1]);
+  }
   // search for programs based on the specified criteria
   console.log('Searching for programs...');
-  // console.log("Season: ", season);
-  // console.log("Department: ", department);
-  console.log("Ages: ", ages);
-  // console.log("Days: ", days);
-  // console.log("Times: ", times);
-  // load the program details from a file
-  console.log(programs);
+  console.log(programs); 
+
   // filter the programs based on the specified criteria
   const filteredPrograms = programs.filter((program) => {
     return (
-      (season === 'all' || program.Season === season) &&
       // (department === 'all' || program.Department === department) &&
-      (ages.length === 0 || ages.includes(program.age)) &&
-      (days.length === 0 || days.includes(program.day)) &&
-      (times.length === 0 || times.includes(program.time))
+      (ages.length === 0 || rangeoverlap(ages, program['Age Range'])) &&
+      (days.length === 0 || days.includes(program.Day))
     );
   });
+  return filteredPrograms;
 }
 
 export { getPrograms };
