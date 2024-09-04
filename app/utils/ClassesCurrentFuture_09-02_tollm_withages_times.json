@@ -1,0 +1,1360 @@
+[
+  {
+    "ID": 6865,
+    "Name": "Baseball Trial-Thurs 3:45pm-4:30pm (Ages 6-8)",
+    "Season": "2024 / 2025 Trial Classes (Ages 1+)",
+    "Start Date": "Thu 08/15/2024",
+    "Range": [
+      6,
+      8
+    ],
+    "Units": "Years",
+    "Day": "Thursday",
+    "Start Time": "3:45pm",
+    "End Time": "4:30pm"
+  },
+  {
+    "ID": 6863,
+    "Name": "Baseball Trial-Tuesday 3:45pm-4:30pm (Ages 3-5)",
+    "Season": "2024 / 2025 Trial Classes (Ages 1+)",
+    "Start Date": "Tue 08/13/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Years",
+    "Day": "Tuesday",
+    "Start Time": "3:45pm",
+    "End Time": "4:30pm"
+  },
+  {
+    "ID": 6862,
+    "Name": "Soccer Trial-Monday 3:45pm-4:30pm (Ages 3-5)",
+    "Season": "2024 / 2025 Trial Classes (Ages 1+)",
+    "Start Date": "Mon 08/19/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Years",
+    "Day": "Monday",
+    "Start Time": "3:45pm",
+    "End Time": "4:30pm"
+  },
+  {
+    "ID": 6864,
+    "Name": "Tennis Trial-Weds 3:45pm-4:30pm (Ages 3-5)",
+    "Season": "2024 / 2025 Trial Classes (Ages 1+)",
+    "Start Date": "Wed 08/14/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Years",
+    "Day": "Wednesday",
+    "Start Time": "3:45pm",
+    "End Time": "4:30pm"
+  },
+  {
+    "ID": 6698,
+    "Name": "[3 Cheers 4 You] Tues 3:25-4:30pm (Ages 3-5)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Tue 09/17/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Years",
+    "Day": "Tuesday",
+    "Start Time": "3:25pm",
+    "End Time": "4:30pm"
+  },
+  {
+    "ID": 6788,
+    "Name": "[BabyBallers] Friday 9:30am-10:10am (Age 1 - 2)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Fri 09/06/2024",
+    "Range": [
+      1,
+      2
+    ],
+    "Units": "Years",
+    "Day": "Friday",
+    "Start Time": "9:30am",
+    "End Time": "10:10am"
+  },
+  {
+    "ID": 6791,
+    "Name": "[BabyBallers] Wednesday 9:30am-10:10am (Age 1 - 2)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Wed 09/04/2024",
+    "Range": [
+      1,
+      2
+    ],
+    "Units": "Years",
+    "Day": "Wednesday",
+    "Start Time": "9:30am",
+    "End Time": "10:10am"
+  },
+  {
+    "ID": 6670,
+    "Name": "[BBall 101] Saturday 9:00am-9:50am (Ages 4-6)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      4,
+      6
+    ],
+    "Units": "Years",
+    "Day": "Saturday",
+    "Start Time": "9:00am",
+    "End Time": "9:50am"
+  },
+  {
+    "ID": 6671,
+    "Name": "[BBall 101] Sunday 10:00am - 10:50am (Ages 4-6)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Sun 09/08/2024",
+    "Range": [
+      4,
+      6
+    ],
+    "Units": "Years",
+    "Day": "Sunday",
+    "Start Time": "10:00am",
+    "End Time": "10:50am"
+  },
+  {
+    "ID": 6672,
+    "Name": "[BBall 101] Thursday 3:00pm - 3:45pm (Ages 4-6)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Thu 09/05/2024",
+    "Range": [
+      4,
+      6
+    ],
+    "Units": "Years",
+    "Day": "Thursday",
+    "Start Time": "3:00pm",
+    "End Time": "3:45pm"
+  },
+  {
+    "ID": 6673,
+    "Name": "[BBall 101] Tuesday 3:50pm - 4:50pm (Ages 4 - 6)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Tue 09/03/2024",
+    "Range": [
+      4,
+      6
+    ],
+    "Units": "Years",
+    "Day": "Tuesday",
+    "Start Time": "3:50pm",
+    "End Time": "4:50pm"
+  },
+  {
+    "ID": 6679,
+    "Name": "[BBall 101] Wednesday 3:00pm - 3:45pm (Ages 4-6)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Wed 09/04/2024",
+    "Range": [
+      4,
+      6
+    ],
+    "Units": "Years",
+    "Day": "Wednesday",
+    "Start Time": "3:00pm",
+    "End Time": "3:45pm"
+  },
+  {
+    "ID": 6715,
+    "Name": "[CHEER & POM FUSION] Thurs 3:25-4:30pm (Ages 5-6)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Thu 09/19/2024",
+    "Range": [
+      5,
+      6
+    ],
+    "Units": "Years",
+    "Day": "Thursday",
+    "Start Time": "3:25pm",
+    "End Time": "4:30pm"
+  },
+  {
+    "ID": 6772,
+    "Name": "[CHEER CHAMPS] Fri 5:40pm-6:35pm (5th/6th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Fri 09/06/2024",
+    "Range": [
+      5,
+      6
+    ],
+    "Units": "Grades",
+    "Day": "Friday",
+    "Start Time": "5:40pm",
+    "End Time": "6:35pm"
+  },
+  {
+    "ID": 6723,
+    "Name": "[CHEER CHAMPS] Tues 5:40-6:35pm (5th/6th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Tue 09/17/2024",
+    "Range": [
+      5,
+      6
+    ],
+    "Units": "Grades",
+    "Day": "Tuesday",
+    "Start Time": "5:40pm",
+    "End Time": "6:35pm"
+  },
+  {
+    "ID": 6725,
+    "Name": "[CHEER CHAMPS] Wed 5:40pm-6:35pm (5th/6th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Wed 09/04/2024",
+    "Range": [
+      5,
+      6
+    ],
+    "Units": "Grades",
+    "Day": "Wednesday",
+    "Start Time": "5:40pm",
+    "End Time": "6:35pm"
+  },
+  {
+    "ID": 6659,
+    "Name": "[CHEER] Cheer Sat 10:00am (Ages 4-5)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      4,
+      5
+    ],
+    "Units": "Years",
+    "Day": "Saturday",
+    "Start Time": "10:00am",
+    "End Time": "N/A"
+  },
+  {
+    "ID": 6771,
+    "Name": "[CHEER] Friday 10:15am-11:00am (Age 2)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Fri 09/13/2024",
+    "Range": [
+      2,
+      2
+    ],
+    "Units": "Years",
+    "Day": "Friday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6653,
+    "Name": "[CHEER] Friday 4:05pm - 5:00pm (K-1)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Fri 09/13/2024",
+    "Range": [
+      0,
+      1
+    ],
+    "Units": "Grades",
+    "Day": "Friday",
+    "Start Time": "4:05pm",
+    "End Time": "5:00pm"
+  },
+  {
+    "ID": 6655,
+    "Name": "[CHEER] Friday 4:35pm - 5:30pm (3rd/4th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Fri 09/13/2024",
+    "Range": [
+      3,
+      4
+    ],
+    "Units": "Grades",
+    "Day": "Friday",
+    "Start Time": "4:35pm",
+    "End Time": "5:30pm"
+  },
+  {
+    "ID": 6768,
+    "Name": "[CHEER] Friday 9:30am-10:10am (Age 1)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Fri 09/13/2024",
+    "Range": [
+      1,
+      1
+    ],
+    "Units": "Years",
+    "Day": "Friday",
+    "Start Time": "9:30am",
+    "End Time": "10:10am"
+  },
+  {
+    "ID": 6769,
+    "Name": "[CHEER] Monday 10:15am-11:00am (Age 2)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Mon 09/09/2024",
+    "Range": [
+      2,
+      2
+    ],
+    "Units": "Years",
+    "Day": "Monday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6767,
+    "Name": "[CHEER] Monday 9:30am-10:10am (Age 1)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Mon 09/09/2024",
+    "Range": [
+      1,
+      1
+    ],
+    "Units": "Years",
+    "Day": "Monday",
+    "Start Time": "9:30am",
+    "End Time": "10:10am"
+  },
+  {
+    "ID": 6793,
+    "Name": "[CHEER] Sunday 10:00am - 10:50am (K-1)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Sun 09/08/2024",
+    "Range": [
+      0,
+      1
+    ],
+    "Units": "Grades",
+    "Day": "Sunday",
+    "Start Time": "10:00am",
+    "End Time": "10:50am"
+  },
+  {
+    "ID": 6774,
+    "Name": "[CHEER] Thurs 10:15am-11:00am (Age 3 & 4's)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Thu 09/05/2024",
+    "Range": [
+      3,
+      4
+    ],
+    "Units": "Years",
+    "Day": "Thursday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6773,
+    "Name": "[CHEER] Tues 10:15am-11:00am (Age 3 & 4's)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Tue 09/17/2024",
+    "Range": [
+      3,
+      4
+    ],
+    "Units": "Years",
+    "Day": "Tuesday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6770,
+    "Name": "[CHEER] Wednesday 10:15am-11:00am (Age 2)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Wed 09/18/2024",
+    "Range": [
+      2,
+      2
+    ],
+    "Units": "Years",
+    "Day": "Wednesday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6777,
+    "Name": "[FB] Multi-Sport Fridays 10:15am-11:00am (Age 2)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Fri 09/06/2024",
+    "Range": [
+      2,
+      2
+    ],
+    "Units": "Years",
+    "Day": "Friday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6778,
+    "Name": "[FB] Multi-Sport Mon 10:15am-11:00am (Age 2)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Mon 09/09/2024",
+    "Range": [
+      2,
+      2
+    ],
+    "Units": "Years",
+    "Day": "Monday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6779,
+    "Name": "[FB] Multi-Sport Sun 9:00am-9:50am (Ages 2)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Sun 09/08/2024",
+    "Range": [
+      2,
+      2
+    ],
+    "Units": "Years",
+    "Day": "Sunday",
+    "Start Time": "9:00am",
+    "End Time": "9:50am"
+  },
+  {
+    "ID": 6783,
+    "Name": "[FB] Multi-Sport Sun 9:00am-9:50am (Ages 3 - 5)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Sun 09/08/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Years",
+    "Day": "Sunday",
+    "Start Time": "9:00am",
+    "End Time": "9:50am"
+  },
+  {
+    "ID": 6784,
+    "Name": "[FB] Multi-Sport Thurs 3:00pm-3:45pm (Ages 3 - 5)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Thu 09/05/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Years",
+    "Day": "Thursday",
+    "Start Time": "3:00pm",
+    "End Time": "3:45pm"
+  },
+  {
+    "ID": 6780,
+    "Name": "[FB] Multi-Sport Thursday 10:15am-11:00am (Age 2)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Thu 09/05/2024",
+    "Range": [
+      2,
+      2
+    ],
+    "Units": "Years",
+    "Day": "Thursday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6786,
+    "Name": "[FB] Multi-Sport Thursday 10:15am-11:00am (Age 3)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Thu 09/05/2024",
+    "Range": [
+      3,
+      3
+    ],
+    "Units": "Years",
+    "Day": "Thursday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6785,
+    "Name": "[FB] Multi-Sport Tues 3:00pm-3:45pm (Ages 3 - 5)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Tue 09/03/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Years",
+    "Day": "Tuesday",
+    "Start Time": "3:00pm",
+    "End Time": "3:45pm"
+  },
+  {
+    "ID": 6781,
+    "Name": "[FB] Multi-Sport Tuesday 10:15am-11:00am (Age 2)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Tue 09/03/2024",
+    "Range": [
+      2,
+      2
+    ],
+    "Units": "Years",
+    "Day": "Tuesday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6787,
+    "Name": "[FB] Multi-Sport Tuesday 10:15am-11:00am (Age 3)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Tue 09/03/2024",
+    "Range": [
+      3,
+      3
+    ],
+    "Units": "Years",
+    "Day": "Tuesday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6782,
+    "Name": "[FB] Multi-Sport Wed 10:15am-11:00am (Age 2.5-3.5)",
+    "Season": "24-FA KIDS Multi-Sport Classes (Ages 1-6)",
+    "Start Date": "Wed 09/04/2024",
+    "Range": [
+      2.5,
+      3.5
+    ],
+    "Units": "Years",
+    "Day": "Wednesday",
+    "Start Time": "10:15am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6675,
+    "Name": "[GAME-ON] Monday 3:50pm-4:50pm (2nd-4th)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Mon 09/09/2024",
+    "Range": [
+      2,
+      4
+    ],
+    "Units": "Grades",
+    "Day": "Monday",
+    "Start Time": "3:50pm",
+    "End Time": "4:50pm"
+  },
+  {
+    "ID": 6676,
+    "Name": "[GAME-ON] Thursday 4:55pm-5:55pm (2nd - 4th)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Thu 09/05/2024",
+    "Range": [
+      2,
+      4
+    ],
+    "Units": "Grades",
+    "Day": "Thursday",
+    "Start Time": "4:55pm",
+    "End Time": "5:55pm"
+  },
+  {
+    "ID": 6677,
+    "Name": "[GAME-ON] Tuesday 4:55pm - 5:55pm (1st - 3rd)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Tue 09/03/2024",
+    "Range": [
+      1,
+      3
+    ],
+    "Units": "Grades",
+    "Day": "Tuesday",
+    "Start Time": "4:55pm",
+    "End Time": "5:55pm"
+  },
+  {
+    "ID": 6678,
+    "Name": "[GAME-ON] Wednesday 4:55pm-5:55pm (3rd - 5th)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Wed 09/04/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Grades",
+    "Day": "Wednesday",
+    "Start Time": "4:55pm",
+    "End Time": "5:55pm"
+  },
+  {
+    "ID": 6744,
+    "Name": "[HIP HOP] Friday 5:10-6:05pm (3rd/4th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Fri 09/13/2024",
+    "Range": [
+      3,
+      4
+    ],
+    "Units": "Grades",
+    "Day": "Friday",
+    "Start Time": "5:10pm",
+    "End Time": "6:05pm"
+  },
+  {
+    "ID": 6652,
+    "Name": "[HIP HOP] Monday 3:00pm-3:55pm (Ages 3-5)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Mon 09/16/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Years",
+    "Day": "Monday",
+    "Start Time": "3:00pm",
+    "End Time": "3:55pm"
+  },
+  {
+    "ID": 6696,
+    "Name": "[HIP HOP] Monday 5:40pm-6:35pm (5th/6th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Mon 09/16/2024",
+    "Range": [
+      5,
+      6
+    ],
+    "Units": "Grades",
+    "Day": "Monday",
+    "Start Time": "5:40pm",
+    "End Time": "6:35pm"
+  },
+  {
+    "ID": 6726,
+    "Name": "[HIP HOP] Thurs 5:35pm-6:30pm (5th/6th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Thu 09/19/2024",
+    "Range": [
+      5,
+      6
+    ],
+    "Units": "Grades",
+    "Day": "Thursday",
+    "Start Time": "5:35pm",
+    "End Time": "6:30pm"
+  },
+  {
+    "ID": 6846,
+    "Name": "[J&E] Music+Move | Thurs 12-1:15pm (Ages 3m-24m)",
+    "Season": "24-FA Juliette & Ella's Playdate (Ages 3m-36m)",
+    "Start Date": "Thu 09/19/2024",
+    "Range": [
+      3,
+      24
+    ],
+    "Units": "Months",
+    "Day": "Thursday",
+    "Start Time": "12:00pm",
+    "End Time": "1:15pm"
+  },
+  {
+    "ID": 6845,
+    "Name": "[J&E] Music+Move | Thurs 9a-10:15am (Ages 12m-36m)",
+    "Season": "24-FA Juliette & Ella's Playdate (Ages 3m-36m)",
+    "Start Date": "Thu 09/05/2024",
+    "Range": [
+      12,
+      36
+    ],
+    "Units": "Months",
+    "Day": "Thursday",
+    "Start Time": "9:00am",
+    "End Time": "10:15am"
+  },
+  {
+    "ID": 6844,
+    "Name": "[J&E] Music+Move | Weds 12:00-1:15pm (Ages 3m-24m)",
+    "Season": "24-FA Juliette & Ella's Playdate (Ages 3m-36m)",
+    "Start Date": "Wed 09/18/2024",
+    "Range": [
+      3,
+      24
+    ],
+    "Units": "Months",
+    "Day": "Wednesday",
+    "Start Time": "12:00pm",
+    "End Time": "1:15pm"
+  },
+  {
+    "ID": 6719,
+    "Name": "[JR CHEER CHAMPS] Friday 3:30pm-4:25pm (1st/2nd)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Fri 09/13/2024",
+    "Range": [
+      1,
+      2
+    ],
+    "Units": "Grades",
+    "Day": "Friday",
+    "Start Time": "3:30pm",
+    "End Time": "4:25pm"
+  },
+  {
+    "ID": 6662,
+    "Name": "[JR CHEER CHAMPS] Mon 4:05-5:00pm (1st/2nd)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Mon 09/16/2024",
+    "Range": [
+      1,
+      2
+    ],
+    "Units": "Grades",
+    "Day": "Monday",
+    "Start Time": "4:05pm",
+    "End Time": "5:00pm"
+  },
+  {
+    "ID": 6686,
+    "Name": "[JR CHEER CHAMPS] Mon 4:35-5:30pm (3rd/4th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Mon 09/16/2024",
+    "Range": [
+      3,
+      4
+    ],
+    "Units": "Grades",
+    "Day": "Monday",
+    "Start Time": "4:35pm",
+    "End Time": "5:30pm"
+  },
+  {
+    "ID": 6717,
+    "Name": "[JR CHEER CHAMPS] Thurs 4:35-5:30pm (1st/2nd)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Thu 09/19/2024",
+    "Range": [
+      1,
+      2
+    ],
+    "Units": "Grades",
+    "Day": "Thursday",
+    "Start Time": "4:35pm",
+    "End Time": "5:30pm"
+  },
+  {
+    "ID": 6697,
+    "Name": "[JR CHEER CHAMPS] Tues 3:30-4:25pm (3rd/4th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Tue 09/17/2024",
+    "Range": [
+      3,
+      4
+    ],
+    "Units": "Grades",
+    "Day": "Tuesday",
+    "Start Time": "3:30pm",
+    "End Time": "4:25pm"
+  },
+  {
+    "ID": 6699,
+    "Name": "[JR CHEER CHAMPS] Tues 4:35-5:30pm (1st/2nd)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Tue 09/17/2024",
+    "Range": [
+      1,
+      2
+    ],
+    "Units": "Grades",
+    "Day": "Tuesday",
+    "Start Time": "4:35pm",
+    "End Time": "5:30pm"
+  },
+  {
+    "ID": 6713,
+    "Name": "[JR CHEER CHAMPS] Wed 3:25-4:30pm (Ages 3-5)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Wed 09/18/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Years",
+    "Day": "Wednesday",
+    "Start Time": "3:25pm",
+    "End Time": "4:30pm"
+  },
+  {
+    "ID": 6712,
+    "Name": "[JR CHEER CHAMPS] Wed 4:35-5:30pm (1st/2nd)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Wed 09/18/2024",
+    "Range": [
+      1,
+      2
+    ],
+    "Units": "Grades",
+    "Day": "Wednesday",
+    "Start Time": "4:35pm",
+    "End Time": "5:30pm"
+  },
+  {
+    "ID": 6666,
+    "Name": "[LEVEL-UP] Friday 4:55pm - 5:55pm (1st - 3rd)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Fri 09/06/2024",
+    "Range": [
+      1,
+      3
+    ],
+    "Units": "Grades",
+    "Day": "Friday",
+    "Start Time": "4:55pm",
+    "End Time": "5:55pm"
+  },
+  {
+    "ID": 6667,
+    "Name": "[LEVEL-UP] Monday 4:55pm - 5:55pm (K - 2nd)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Mon 09/09/2024",
+    "Range": [
+      0,
+      2
+    ],
+    "Units": "Grades",
+    "Day": "Monday",
+    "Start Time": "4:55pm",
+    "End Time": "5:55pm"
+  },
+  {
+    "ID": 6668,
+    "Name": "[LEVEL-UP] Thursday 3:50pm - 4:50pm (K - 2nd)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Thu 09/05/2024",
+    "Range": [
+      0,
+      2
+    ],
+    "Units": "Grades",
+    "Day": "Thursday",
+    "Start Time": "3:50pm",
+    "End Time": "4:50pm"
+  },
+  {
+    "ID": 6669,
+    "Name": "[LEVEL-UP] Wednesday 3:50pm - 4:50pm (K - 2nd)",
+    "Season": "24-FA Basketball Classes (PreK - 5th)",
+    "Start Date": "Wed 09/04/2024",
+    "Range": [
+      0,
+      2
+    ],
+    "Units": "Grades",
+    "Day": "Wednesday",
+    "Start Time": "3:50pm",
+    "End Time": "4:50pm"
+  },
+  {
+    "ID": 6720,
+    "Name": "[POM DANCE] Friday 3:00pm-3:55pm (1st/2nd)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Fri 09/13/2024",
+    "Range": [
+      1,
+      2
+    ],
+    "Units": "Grades",
+    "Day": "Friday",
+    "Start Time": "3:00pm",
+    "End Time": "3:55pm"
+  },
+  {
+    "ID": 6661,
+    "Name": "[POM DANCE] Monday 3:30pm-4:25pm (K-1st)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Mon 09/16/2024",
+    "Range": [
+      0,
+      1
+    ],
+    "Units": "Grades",
+    "Day": "Monday",
+    "Start Time": "3:30pm",
+    "End Time": "4:25pm"
+  },
+  {
+    "ID": 6722,
+    "Name": "[POM DANCE] Tues 5:35-6:30pm (3rd/4th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Tue 09/17/2024",
+    "Range": [
+      3,
+      4
+    ],
+    "Units": "Grades",
+    "Day": "Tuesday",
+    "Start Time": "5:35pm",
+    "End Time": "6:30pm"
+  },
+  {
+    "ID": 6716,
+    "Name": "[TUMBLE FOR CHEER] Thurs 5:40-6:35pm (5th/6th)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Thu 09/19/2024",
+    "Range": [
+      5,
+      6
+    ],
+    "Units": "Grades",
+    "Day": "Thursday",
+    "Start Time": "5:40pm",
+    "End Time": "6:35pm"
+  },
+  {
+    "ID": 6724,
+    "Name": "[TUMBLE FOR CHEER] Wed 5:35pm-6:30pm (1st-3rd)",
+    "Season": "24-FA Cheer & Dance (Ages 1+)",
+    "Start Date": "Wed 09/18/2024",
+    "Range": [
+      1,
+      3
+    ],
+    "Units": "Grades",
+    "Day": "Wednesday",
+    "Start Time": "5:35pm",
+    "End Time": "6:30pm"
+  },
+  {
+    "ID": 6707,
+    "Name": "[FFB-GIRLS] Friday 3:45pm - 5:00pm (3rd-5th)",
+    "Season": "24-FA Flag Football (PreK-5th)",
+    "Start Date": "Fri 09/06/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Grades",
+    "Day": "Friday",
+    "Start Time": "3:45pm",
+    "End Time": "5:00pm"
+  },
+  {
+    "ID": 6709,
+    "Name": "[FFB-GIRLS] Saturday 10:45am-12:00pm (4th/5th)",
+    "Season": "24-FA Flag Football (PreK-5th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      4,
+      5
+    ],
+    "Units": "Grades",
+    "Day": "Saturday",
+    "Start Time": "10:45am",
+    "End Time": "12:00pm"
+  },
+  {
+    "ID": 6708,
+    "Name": "[FFB-GIRLS] Saturday 9:30am-10:45am (2nd/3rd)",
+    "Season": "24-FA Flag Football (PreK-5th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      2,
+      3
+    ],
+    "Units": "Grades",
+    "Day": "Saturday",
+    "Start Time": "9:30am",
+    "End Time": "10:45am"
+  },
+  {
+    "ID": 6700,
+    "Name": "[FFB-QB Class] Monday 3:45pm-5:00pm (3rd-6th)",
+    "Season": "24-FA Flag Football (PreK-5th)",
+    "Start Date": "Mon 09/09/2024",
+    "Range": [
+      3,
+      6
+    ],
+    "Units": "Grades",
+    "Day": "Monday",
+    "Start Time": "3:45pm",
+    "End Time": "5:00pm"
+  },
+  {
+    "ID": 6701,
+    "Name": "[FFB] Saturday 2:00pm-3:15pm (Ages 4-6)",
+    "Season": "24-FA Flag Football (PreK-5th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      4,
+      6
+    ],
+    "Units": "Years",
+    "Day": "Saturday",
+    "Start Time": "2:00pm",
+    "End Time": "3:15pm"
+  },
+  {
+    "ID": 6702,
+    "Name": "[FFB] Saturday 3:15pm-4:30pm (2nd/3rd)",
+    "Season": "24-FA Flag Football (PreK-5th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      2,
+      3
+    ],
+    "Units": "Grades",
+    "Day": "Saturday",
+    "Start Time": "3:15pm",
+    "End Time": "4:30pm"
+  },
+  {
+    "ID": 6704,
+    "Name": "[FFB] Thursday 3:45pm - 5:00pm (1st/2nd)",
+    "Season": "24-FA Flag Football (PreK-5th)",
+    "Start Date": "Thu 09/05/2024",
+    "Range": [
+      1,
+      2
+    ],
+    "Units": "Grades",
+    "Day": "Thursday",
+    "Start Time": "3:45pm",
+    "End Time": "5:00pm"
+  },
+  {
+    "ID": 6705,
+    "Name": "[FFB] Tuesday 3:45pm - 5:00pm (3rd/4th)",
+    "Season": "24-FA Flag Football (PreK-5th)",
+    "Start Date": "Tue 09/03/2024",
+    "Range": [
+      3,
+      4
+    ],
+    "Units": "Grades",
+    "Day": "Tuesday",
+    "Start Time": "3:45pm",
+    "End Time": "5:00pm"
+  },
+  {
+    "ID": 6706,
+    "Name": "[FFB] Wednesday 3:45pm-5:00pm (5th/6th)",
+    "Season": "24-FA Flag Football (PreK-5th)",
+    "Start Date": "Wed 09/04/2024",
+    "Range": [
+      5,
+      6
+    ],
+    "Units": "Grades",
+    "Day": "Wednesday",
+    "Start Time": "3:45pm",
+    "End Time": "5:00pm"
+  },
+  {
+    "ID": 6556,
+    "Name": "[Hoop Academy] Sat 12:30pm-2:00pm (Ages 8-10)",
+    "Season": "24-FA Hoop Academy (Boys K-8th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      8,
+      10
+    ],
+    "Units": "Years",
+    "Day": "Saturday",
+    "Start Time": "12:30pm",
+    "End Time": "2:00pm"
+  },
+  {
+    "ID": 6557,
+    "Name": "[Hoop Academy] Sat 2:00pm-3:30pm (Ages 11-13)",
+    "Season": "24-FA Hoop Academy (Boys K-8th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      11,
+      13
+    ],
+    "Units": "Years",
+    "Day": "Saturday",
+    "Start Time": "2:00pm",
+    "End Time": "3:30pm"
+  },
+  {
+    "ID": 6558,
+    "Name": "[Jr Hoop Academy] Sat 10:00am-11:05am (Ages 6 & 7)",
+    "Season": "24-FA Hoop Academy (Boys K-8th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      6,
+      7
+    ],
+    "Units": "Years",
+    "Day": "Saturday",
+    "Start Time": "10:00am",
+    "End Time": "11:05am"
+  },
+  {
+    "ID": 6559,
+    "Name": "[Jr Hoop Academy] Sat 10:10am-11:10am (Ages 5 & 6)",
+    "Season": "24-FA Hoop Academy (Boys K-8th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      5,
+      6
+    ],
+    "Units": "Years",
+    "Day": "Saturday",
+    "Start Time": "10:10am",
+    "End Time": "11:10am"
+  },
+  {
+    "ID": 6739,
+    "Name": "(ETA & PLAY) Sunday 11:00am-12:30pm | Ages 14+",
+    "Season": "24-FA Elite Basketball Training Academy (3rd-11th)",
+    "Start Date": "Sun 09/08/2024",
+    "Range": [
+      14,
+      1000
+    ],
+    "Units": "Years",
+    "Day": "Sunday",
+    "Start Time": "11:00am",
+    "End Time": "12:30pm"
+  },
+  {
+    "ID": 6738,
+    "Name": "(ETA & PLAY) Sunday 9:30am-11:00am | Ages 11-13",
+    "Season": "24-FA Elite Basketball Training Academy (3rd-11th)",
+    "Start Date": "Sun 09/08/2024",
+    "Range": [
+      11,
+      13
+    ],
+    "Units": "Years",
+    "Day": "Sunday",
+    "Start Time": "9:30am",
+    "End Time": "11:00am"
+  },
+  {
+    "ID": 6732,
+    "Name": "(ETA) Tuesday 6:00pm-7:00pm | Ages 9-11",
+    "Season": "24-FA Elite Basketball Training Academy (3rd-11th)",
+    "Start Date": "Tue 09/10/2024",
+    "Range": [
+      9,
+      11
+    ],
+    "Units": "Years",
+    "Day": "Tuesday",
+    "Start Time": "6:00pm",
+    "End Time": "7:00pm"
+  },
+  {
+    "ID": 6733,
+    "Name": "(ETA) Tuesday 7:00pm-8:00pm | Ages 11-13",
+    "Season": "24-FA Elite Basketball Training Academy (3rd-11th)",
+    "Start Date": "Tue 09/10/2024",
+    "Range": [
+      11,
+      13
+    ],
+    "Units": "Years",
+    "Day": "Tuesday",
+    "Start Time": "7:00pm",
+    "End Time": "8:00pm"
+  },
+  {
+    "ID": 6734,
+    "Name": "(ETA) Tuesday 8:00pm-9:00pm | Ages 13-17",
+    "Season": "24-FA Elite Basketball Training Academy (3rd-11th)",
+    "Start Date": "Tue 09/10/2024",
+    "Range": [
+      13,
+      17
+    ],
+    "Units": "Years",
+    "Day": "Tuesday",
+    "Start Time": "8:00pm",
+    "End Time": "9:00pm"
+  },
+  {
+    "ID": 6735,
+    "Name": "(ETA) Wednesday 6:00pm-7:00pm | Ages 9-11",
+    "Season": "24-FA Elite Basketball Training Academy (3rd-11th)",
+    "Start Date": "Wed 09/11/2024",
+    "Range": [
+      9,
+      11
+    ],
+    "Units": "Years",
+    "Day": "Wednesday",
+    "Start Time": "6:00pm",
+    "End Time": "7:00pm"
+  },
+  {
+    "ID": 6736,
+    "Name": "(ETA) Wednesday 7:00pm-8:00pm | Ages 11-13",
+    "Season": "24-FA Elite Basketball Training Academy (3rd-11th)",
+    "Start Date": "Wed 09/11/2024",
+    "Range": [
+      11,
+      13
+    ],
+    "Units": "Years",
+    "Day": "Wednesday",
+    "Start Time": "7:00pm",
+    "End Time": "8:00pm"
+  },
+  {
+    "ID": 6737,
+    "Name": "(ETA) Wednesday 8:00pm-9:00pm | Ages 13-17",
+    "Season": "24-FA Elite Basketball Training Academy (3rd-11th)",
+    "Start Date": "Wed 09/11/2024",
+    "Range": [
+      13,
+      17
+    ],
+    "Units": "Years",
+    "Day": "Wednesday",
+    "Start Time": "8:00pm",
+    "End Time": "9:00pm"
+  },
+  {
+    "ID": 6727,
+    "Name": "[Hustle-AS] Mon 6:00pm - 7:00pm (3rd-5th)",
+    "Season": "24-FA Hustle Basketball Classes (K-8th)",
+    "Start Date": "Mon 09/09/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Grades",
+    "Day": "Monday",
+    "Start Time": "6:00pm",
+    "End Time": "7:00pm"
+  },
+  {
+    "ID": 6728,
+    "Name": "[Hustle-AS] Mon 7:00pm - 8:00pm (6th-8th)",
+    "Season": "24-FA Hustle Basketball Classes (K-8th)",
+    "Start Date": "Mon 09/09/2024",
+    "Range": [
+      6,
+      8
+    ],
+    "Units": "Grades",
+    "Day": "Monday",
+    "Start Time": "7:00pm",
+    "End Time": "8:00pm"
+  },
+  {
+    "ID": 6613,
+    "Name": "[Hustle-AS] Thurs 6:00pm-7:00pm (3rd-5th)",
+    "Season": "24-FA Hustle Basketball Classes (K-8th)",
+    "Start Date": "Thu 09/12/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Grades",
+    "Day": "Thursday",
+    "Start Time": "6:00pm",
+    "End Time": "7:00pm"
+  },
+  {
+    "ID": 6614,
+    "Name": "[Hustle-AS] Thurs 7:00pm-8:00pm (6th-8th)",
+    "Season": "24-FA Hustle Basketball Classes (K-8th)",
+    "Start Date": "Thu 09/12/2024",
+    "Range": [
+      6,
+      8
+    ],
+    "Units": "Grades",
+    "Day": "Thursday",
+    "Start Time": "7:00pm",
+    "End Time": "8:00pm"
+  },
+  {
+    "ID": 6615,
+    "Name": "[Hustle-AS] Tues 6:00pm - 7:00pm (3rd-5th)",
+    "Season": "24-FA Hustle Basketball Classes (K-8th)",
+    "Start Date": "Tue 09/10/2024",
+    "Range": [
+      3,
+      5
+    ],
+    "Units": "Grades",
+    "Day": "Tuesday",
+    "Start Time": "6:00pm",
+    "End Time": "7:00pm"
+  },
+  {
+    "ID": 6616,
+    "Name": "[Hustle-AS] Tues 7:00pm - 8:00pm (6th-8th)",
+    "Season": "24-FA Hustle Basketball Classes (K-8th)",
+    "Start Date": "Tue 09/10/2024",
+    "Range": [
+      6,
+      8
+    ],
+    "Units": "Grades",
+    "Day": "Tuesday",
+    "Start Time": "7:00pm",
+    "End Time": "8:00pm"
+  },
+  {
+    "ID": 6617,
+    "Name": "[Hustle-FB] Fri 3:50pm-4:50pm (1st-3rd)",
+    "Season": "24-FA Hustle Basketball Classes (K-8th)",
+    "Start Date": "Fri 09/06/2024",
+    "Range": [
+      1,
+      3
+    ],
+    "Units": "Grades",
+    "Day": "Friday",
+    "Start Time": "3:50pm",
+    "End Time": "4:50pm"
+  },
+  {
+    "ID": 6610,
+    "Name": "[HUSTLE] Hoop Academy Sat 1:30-2:45pm (7th/8th)",
+    "Season": "24-FA Hustle Hoop Academy (Girls 2nd-7th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      7,
+      8
+    ],
+    "Units": "Grades",
+    "Day": "Saturday",
+    "Start Time": "1:30pm",
+    "End Time": "2:45pm"
+  },
+  {
+    "ID": 6611,
+    "Name": "[HUSTLE] Hoop Academy Sat 3:00pm-4:15pm (2nd-4th)",
+    "Season": "24-FA Hustle Hoop Academy (Girls 2nd-7th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      2,
+      4
+    ],
+    "Units": "Grades",
+    "Day": "Saturday",
+    "Start Time": "3:00pm",
+    "End Time": "4:15pm"
+  },
+  {
+    "ID": 6612,
+    "Name": "[HUSTLE] Hoop Academy Sat 4:30-5:45pm (5th/6th)",
+    "Season": "24-FA Hustle Hoop Academy (Girls 2nd-7th)",
+    "Start Date": "Sat 09/07/2024",
+    "Range": [
+      5,
+      6
+    ],
+    "Units": "Grades",
+    "Day": "Saturday",
+    "Start Time": "4:30pm",
+    "End Time": "5:45pm"
+  }
+]

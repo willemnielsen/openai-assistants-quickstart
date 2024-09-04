@@ -9,7 +9,6 @@ import FileViewer from "../../components/file-viewer";
 
 const FunctionCalling = () => {
   const [weatherData, setWeatherData] = useState({});
-
   const functionCallHandler = async (call) => {
     if (call?.function?.name !== "get_weather") return;
     const args = JSON.parse(call.function.arguments);

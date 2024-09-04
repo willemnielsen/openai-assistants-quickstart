@@ -152,40 +152,116 @@ export async function POST() {
   Co-Ed Elite Basketball Training Academy, 
   Girls Hustle Basketball Classes, and Girls Hustle Hoop Academy files.
   Here are some examples:
+  `;
 
-  `
+const instructionsFunc = `
+You are helping give information about youth sports programs.
+Use the getPrograms tool to show information to the user.
+Here are some examples:
+`;
+
+const examplesFunc = `
+Input: Show me all the basketball programs for my 8 year old son
+Toolcall: getPrograms(Department: "Basketball", Ages: [8, "Years"])
+Output: Here are all the basketball programs for an 8 year old boy
+I'm assuming he is in 2nd or 3rd grade:
+1. Hoop Academy
+- Saturdays from 12:30pm to 2:00pm for ages 8-10
+2. LEVEL-UP
+- Friday from 4:55pm - 5:55pm, for grades 1st - 3rd
+- Monday from 4:55pm - 5:55pm, for grades K - 2nd
+- Thursday from 3:50pm - 4:50pm, for grades K - 2nd
+- Wednesday from 3:50pm - 4:50pm, for grades K - 2nd
+`;
+
+const getProgramsDescription = `
+Retrieves a list of programs based on the specified criteria.
+So for example, if the user asks for basketball programs for their 11 year old daughter,
+you would call this function with the parameters:
+- Department: "Basketball"
+- Ages: [11, "Years"]
+- Gender: Female
+`;
+
 
 
   const assistant = await openai.beta.assistants.create({
     instructions: instructionsMultiFile + examplesMulti,
     name: "Dash-gpt",
     model: "gpt-4o",
-    tools: [{ type: "file_search" }
-      // {
-      //   type: "function",
-      //   function: {
-      //     name: "pull",
-      //     description: pull_description,
-      //     parameters: {
-      //       type: "object",
-      //       properties: {
-      //         "table_name": {
-      //           type: "string",
-      //           description: table_name_description,
-      //         },
-      //         "new_table_name": {
-      //           type: "string",
-      //           description: new_table_name_description,
-      //         },
-      //         "filters": {
-      //           type: "string",
-      //           description: filters_description,
-      //         }
-      //       },
-      //       required: ["table_name", "new_table_name", "filters"],
-      //     },
-      //   },
-      // }
+    tools: [
+      { type: "code_interpreter" },
+      {
+        type: "function",
+        function: {
+          name: "get_weather",
+          description: "Determine weather in my location",
+          parameters: {
+            type: "object",
+            properties: {
+              location: {
+                type: "string",
+                description: "The city and state e.g. San Francisco, CA",
+              },
+              unit: {
+                type: "string",
+                enum: ["c", "f"],
+              },
+            },
+            required: ["location"],
+          },
+        },
+      },
+      {
+        type: "function",
+        function: {
+          name: "getPrograms",
+          description: getProgramsDescription,
+          parameters: {
+            type: "object",
+            properties: {
+              "Ages": {
+                type: "object",
+                properties: {
+                  "quantities": {
+                    type: "array",
+                    items: {
+                      type: "number",
+                      description: "Each age to include, e.g 8",
+                    },
+                    description: "The age spec, e.g. Ages 8-10 -> [8, 9, 10]"
+                  },
+                  "unit": {
+                    type: "string",
+                    description: "The unit of the age, only options are 'Years', 'Grades' or 'Months'",
+                  },
+                },
+                description: 
+                "Optional argument to specify age range of programs, any if unspecified. So for an 8 year old, you would use {'quantities': [8], 'unit': 'Years'}",
+              },
+              "Department": {
+                type: "string",
+                description: 
+                "Optional argument to specify department of programs, any if unspecified. Only options are 'Basketball', 'Cheer and Dance', 'Multi-Sport' or 'Flag Football",
+              },
+              "Gender": {
+                type: "string",
+                description: 
+                "Optional argument to specify gender of programs, any if unspecified, so for 10 year old daughter you would use 'Female'",
+              },
+              "Day": {
+                type: "array",
+                items: {
+                  type: "string"
+                },
+                description: 
+                "Optional argument to specify days of programs, any if unspecified, so for Monday and Wednesday, you would use ['Monday', 'Wednesday']",
+              }
+            },
+            required: [],
+          },
+        },
+      }
     ],
   });
   return Response.json({ assistantId: assistant.id });

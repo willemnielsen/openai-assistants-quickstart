@@ -7,9 +7,10 @@ import Markdown from "react-markdown";
 // @ts-expect-error - no types for this yet
 import { AssistantStreamEvent } from "openai/resources/beta/assistants/assistants";
 import { RequiredActionFunctionToolCall } from "openai/resources/beta/threads/runs/runs";
+import tablemark from 'tablemark';
 
 type MessageProps = {
-  role: "user" | "assistant" | "code";
+  role: "user" | "assistant" | "code" | "tool" ;
   text: string;
 };
 
@@ -46,6 +47,8 @@ const Message = ({ role, text }: MessageProps) => {
       return <AssistantMessage text={text} />;
     case "code":
       return <CodeMessage text={text} />;
+    case "tool":
+      return <AssistantMessage text={text} />;
     default:
       return null;
   }
@@ -64,7 +67,6 @@ const Chat = ({
   const [messages, setMessages] = useState([]);
   const [inputDisabled, setInputDisabled] = useState(false);
   const [threadId, setThreadId] = useState("");
-
   // automatically scroll to bottom of chat
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
   const scrollToBottom = () => {
@@ -155,15 +157,23 @@ const Chat = ({
 
   // toolCallCreated - log new tool call
   const toolCallCreated = (toolCall) => {
-    if (toolCall.type != "code_interpreter") return;
-    appendMessage("code", "");
+    if (toolCall.type === "function") {
+      appendMessage("tool", "");
+    } else if (toolCall.type === "code_interpreter") {
+      appendMessage("code", "");
+    }
   };
 
   // toolCallDelta - log delta and snapshot for the tool call
   const toolCallDelta = (delta, snapshot) => {
-    if (delta.type != "code_interpreter") return;
-    if (!delta.code_interpreter.input) return;
-    appendToLastMessage(delta.code_interpreter.input);
+    if (delta.type === "code_interpreter") {
+      if (!delta.code_interpreter.input) return;
+      appendToLastMessage(delta.code_interpreter.input);
+    } else if (delta.type === "function") {
+      console.log(delta.function.arguments)
+      if (!delta.function) return;
+      appendToLastMessage(delta.function.arguments);
+    }
   };
 
   // handleRequiresAction - handle function call
@@ -213,6 +223,14 @@ const Chat = ({
     === Utility Helpers ===
     =======================
   */
+
+
+
+  const convertToMarkdown = (data: any): string => {
+    // Convert data to markdown using table-markdown package
+    const markdown = tablemark(data);
+    return markdown;
+  };
 
   const appendToLastMessage = (text) => {
     setMessages((prevMessages) => {
