@@ -4,10 +4,12 @@ import React, { useState, useEffect, useRef } from "react";
 import styles from "./chat.module.css";
 import { AssistantStream } from "openai/lib/AssistantStream";
 import Markdown from "react-markdown";
+import remarkGfm from "remark-gfm";
+import tablemark from 'tablemark';
 // @ts-expect-error - no types for this yet
 import { AssistantStreamEvent } from "openai/resources/beta/assistants/assistants";
 import { RequiredActionFunctionToolCall } from "openai/resources/beta/threads/runs/runs";
-import tablemark from 'tablemark';
+
 
 type MessageProps = {
   role: "user" | "assistant" | "code" | "tool" ;
@@ -19,6 +21,16 @@ const UserMessage = ({ text }: { text: string }) => {
 };
 
 const AssistantMessage = ({ text }: { text: string }) => {
+  return (
+    <div className={styles.assistantMessage}>
+      <Markdown remarkPlugins={[remarkGfm]}>
+        {text}
+      </Markdown>
+    </div>
+  );
+};
+
+const ToolMessage = ({ text }: { text: string }) => {
   return (
     <div className={styles.assistantMessage}>
       <Markdown>{text}</Markdown>
@@ -170,7 +182,6 @@ const Chat = ({
       if (!delta.code_interpreter.input) return;
       appendToLastMessage(delta.code_interpreter.input);
     } else if (delta.type === "function") {
-      console.log(delta.function.arguments)
       if (!delta.function) return;
       appendToLastMessage(delta.function.arguments);
     }
@@ -189,6 +200,10 @@ const Chat = ({
         return { output: result, tool_call_id: toolCall.id };
       })
     );
+    console.log(toolCallOutputs);
+    const table = tablemark(JSON.parse(toolCallOutputs[0].output));
+    console.log(table);
+    appendMessage("tool", table);
     setInputDisabled(true);
     submitActionResult(runId, toolCallOutputs);
   };

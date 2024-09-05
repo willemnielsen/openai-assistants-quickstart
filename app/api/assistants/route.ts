@@ -183,35 +183,50 @@ you would call this function with the parameters:
 - Gender: Female
 `;
 
+const programInstruction = `
+You are helping give information about youth sports programs.
+Use the getPrograms tool to show information to the user,
+then summarize the results for the user. Here's an example:
+Input: What are the basketball programs for my 8 year old son?
+Toolcall: getPrograms(Department: "Basketball", Ages: [8, "Years"])
+(table of program info will be outputted)
+Output: (Summarize the info in the table) Here are all the basketball 
+programs for an 8 year old, I'm assuming he is in 2nd or 3rd grade:
+We have a jr. hoop academy program, some level-up basketball classes,
+and a game-on class for more advanced players. Let me know if you 
+want more details on any program.
+`;
+
+
 
 
   const assistant = await openai.beta.assistants.create({
-    instructions: instructionsMultiFile + examplesMulti,
+    instructions: programInstruction,
     name: "Dash-gpt",
     model: "gpt-4o",
     tools: [
-      { type: "code_interpreter" },
-      {
-        type: "function",
-        function: {
-          name: "get_weather",
-          description: "Determine weather in my location",
-          parameters: {
-            type: "object",
-            properties: {
-              location: {
-                type: "string",
-                description: "The city and state e.g. San Francisco, CA",
-              },
-              unit: {
-                type: "string",
-                enum: ["c", "f"],
-              },
-            },
-            required: ["location"],
-          },
-        },
-      },
+      // { type: "code_interpreter" },
+      // {
+      //   type: "function",
+      //   function: {
+      //     name: "get_weather",
+      //     description: "Determine weather in my location",
+      //     parameters: {
+      //       type: "object",
+      //       properties: {
+      //         location: {
+      //           type: "string",
+      //           description: "The city and state e.g. San Francisco, CA",
+      //         },
+      //         unit: {
+      //           type: "string",
+      //           enum: ["c", "f"],
+      //         },
+      //       },
+      //       required: ["location"],
+      //     },
+      //   },
+      // },
       {
         type: "function",
         function: {

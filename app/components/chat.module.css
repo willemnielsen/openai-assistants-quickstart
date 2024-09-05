@@ -1,3 +1,5 @@
+
+
 .chatContainer {
   display: flex;
   flex-direction: column-reverse;
@@ -77,6 +79,17 @@
 
 .assistantMessage {
   background-color: #efefef;
+}
+
+.assistantMessage table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.assistantMessage table td,
+.assistantMessage table th {
+  padding: 6px 13px;
+  border: 1px solid black;
 }
 
 .codeMessage {

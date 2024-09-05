@@ -25,7 +25,6 @@ function getPrograms(
   }
   // search for programs based on the specified criteria
   console.log('Searching for programs...');
-  console.log(programs); 
 
   // filter the programs based on the specified criteria
   const filteredPrograms = programs.filter((program) => {
@@ -35,6 +34,7 @@ function getPrograms(
       (days.length === 0 || days.includes(program.Day))
     );
   });
+  console.log(filteredPrograms);
   return filteredPrograms;
 }
 
