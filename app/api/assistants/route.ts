@@ -190,11 +190,29 @@ then summarize the results for the user. Here's an example:
 Input: What are the basketball programs for my 8 year old son?
 Toolcall: getPrograms(Department: "Basketball", Ages: [8, "Years"])
 (table of program info will be outputted)
-Output: (Summarize the info in the table) Here are all the basketball 
+Output: (Summarize the info in the table, DO NOT NUMBER RESULTS.) 
+Here are all the basketball 
 programs for an 8 year old, I'm assuming he is in 2nd or 3rd grade:
-We have a jr. hoop academy program, some level-up basketball classes,
-and a game-on class for more advanced players. Let me know if you 
-want more details on any program.
+Here are the programs available for 13-year-olds:
+
+**Hoop Academy** - For ages 11-13:
+  - Saturday, 2:00pm-3:30pm
+**Elite Basketball Training Academy (ETA & PLAY)** - For ages 11-13:
+  - Sunday, 9:30am-11:00am
+**Elite Basketball Training Academy (ETA)** - For ages 11-13:
+  - Tuesday, 7:00pm-8:00pm
+  - Wednesday, 7:00pm-8:00pm
+**Elite Basketball Training Academy (ETA)** - For ages 13-17:
+  - Tuesday, 8:00pm-9:00pm
+  - Wednesday, 8:00pm-9:00pm
+**Hustle Basketball Classes** - For 6th-8th graders:
+  - Monday, 7:00pm-8:00pm
+  - Thursday, 7:00pm-8:00pm
+  - Tuesday, 7:00pm-8:00pm
+**Hustle Hoop Academy** - For 7th/8th graders:
+  - Saturday, 1:30pm-2:45pm
+
+These programs include various academy and training sessions, available on different days of the week. Let me know if you need more details about any specific program
 `;
 
 

@@ -35,14 +35,14 @@ const FunctionCalling = () => {
   return (
     <main className={styles.main}>
       <div className={styles.container}>
-        <div className={styles.column}>
+        {/* <div className={styles.column}>
           <WeatherWidget
             location={weatherData.location || "---"}
             temperature={weatherData.temperature?.toString() || "---"}
             conditions={weatherData.conditions || "Sunny"}
             isEmpty={isEmpty}
           />
-        </div>
+        </div> */}
         <div className={styles.chatContainer}>
           <div className={styles.chat}>
             <Chat functionCallHandler={functionCallHandler} />

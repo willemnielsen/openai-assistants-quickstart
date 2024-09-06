@@ -81,15 +81,38 @@
   background-color: #efefef;
 }
 
-.assistantMessage table {
+.toolMessage {
+  background-color: white;
+}
+
+.toolMessage table {
   border-collapse: collapse;
   width: 100%;
 }
 
-.assistantMessage table td,
-.assistantMessage table th {
+.toolMessage table td {
   padding: 6px 13px;
-  border: 1px solid black;
+  /* border: 1px solid black; */
+  /* background-color: #f5f5f5; */
+  color: #333;
+  /* font-weight: bold; */
+}
+
+.toolMessage table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.toolMessage table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.toolMessage table th {
+  padding: 6px 13px;
+  /* border: 1.5px solid black; */
+  background-color: #efefef;
+  color: #000;
+  font-weight: bold;
 }
 
 .codeMessage {

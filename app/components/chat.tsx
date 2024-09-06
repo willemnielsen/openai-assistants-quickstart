@@ -21,9 +21,10 @@ const UserMessage = ({ text }: { text: string }) => {
 };
 
 const AssistantMessage = ({ text }: { text: string }) => {
+  console.log(text);
   return (
     <div className={styles.assistantMessage}>
-      <Markdown remarkPlugins={[remarkGfm]}>
+      <Markdown >
         {text}
       </Markdown>
     </div>
@@ -32,8 +33,10 @@ const AssistantMessage = ({ text }: { text: string }) => {
 
 const ToolMessage = ({ text }: { text: string }) => {
   return (
-    <div className={styles.assistantMessage}>
-      <Markdown>{text}</Markdown>
+    <div className={styles.toolMessage}>
+      <Markdown remarkPlugins={[remarkGfm]}>
+        {text}
+        </Markdown>
     </div>
   );
 };
@@ -60,7 +63,7 @@ const Message = ({ role, text }: MessageProps) => {
     case "code":
       return <CodeMessage text={text} />;
     case "tool":
-      return <AssistantMessage text={text} />;
+      return <ToolMessage text={text} />;
     default:
       return null;
   }
