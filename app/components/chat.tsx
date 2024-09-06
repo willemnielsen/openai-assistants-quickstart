@@ -21,7 +21,6 @@ const UserMessage = ({ text }: { text: string }) => {
 };
 
 const AssistantMessage = ({ text }: { text: string }) => {
-  console.log(text);
   return (
     <div className={styles.assistantMessage}>
       <Markdown >
@@ -203,10 +202,20 @@ const Chat = ({
         return { output: result, tool_call_id: toolCall.id };
       })
     );
-    console.log(toolCallOutputs);
-    const table = tablemark(JSON.parse(toolCallOutputs[0].output));
-    console.log(table);
-    appendMessage("tool", table);
+    const output = JSON.parse(toolCallOutputs[0].output);
+    // Filter the JSON to drop the id column
+    const filteredToolCallOutputs = output.map((op) => {
+      const filteredOutput = { ...op };
+      delete filteredOutput.ID;
+      return filteredOutput;
+    });
+    // Convert filtered data to markdown using table-markdown package
+    if (filteredToolCallOutputs.length === 0) {
+      appendMessage("tool", "No results found.");
+    } else {
+      const table = tablemark(filteredToolCallOutputs);
+      appendMessage("tool", table);
+    }
     setInputDisabled(true);
     submitActionResult(runId, toolCallOutputs);
   };

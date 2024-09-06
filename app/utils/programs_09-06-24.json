@@ -10,7 +10,12 @@
     "Age Range": [
       6,
       8
-    ]
+    ],
+    "Clean Name": "Baseball Trial",
+    "Clean Age": "6-8",
+    "Department": "Trial Classes",
+    "Location": "Central Park East (84th / 5th)",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6863,
@@ -23,7 +28,12 @@
     "Age Range": [
       3,
       5
-    ]
+    ],
+    "Clean Name": "Baseball Trial",
+    "Clean Age": "3-5",
+    "Department": "Trial Classes",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6862,
@@ -36,7 +46,12 @@
     "Age Range": [
       3,
       5
-    ]
+    ],
+    "Clean Name": "Soccer Trial",
+    "Clean Age": "3-5",
+    "Department": "Trial Classes",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6864,
@@ -49,7 +64,12 @@
     "Age Range": [
       3,
       5
-    ]
+    ],
+    "Clean Name": "Tennis Trial",
+    "Clean Age": "3-5",
+    "Department": "Trial Classes",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6698,
@@ -62,7 +82,12 @@
     "Age Range": [
       3,
       5
-    ]
+    ],
+    "Clean Name": "3 Cheers 4 You",
+    "Clean Age": "3-5",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6788,
@@ -75,7 +100,12 @@
     "Age Range": [
       1,
       2
-    ]
+    ],
+    "Clean Name": "BabyBallers",
+    "Clean Age": "1-2",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6791,
@@ -88,7 +118,12 @@
     "Age Range": [
       1,
       2
-    ]
+    ],
+    "Clean Name": "BabyBallers",
+    "Clean Age": "1-2",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6670,
@@ -101,7 +136,12 @@
     "Age Range": [
       4,
       6
-    ]
+    ],
+    "Clean Name": "BBall 101",
+    "Clean Age": "4-6",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6671,
@@ -114,7 +154,12 @@
     "Age Range": [
       4,
       6
-    ]
+    ],
+    "Clean Name": "BBall 101",
+    "Clean Age": "4-6",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6672,
@@ -127,7 +172,12 @@
     "Age Range": [
       4,
       6
-    ]
+    ],
+    "Clean Name": "BBall 101",
+    "Clean Age": "4-6",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6673,
@@ -140,7 +190,12 @@
     "Age Range": [
       4,
       6
-    ]
+    ],
+    "Clean Name": "BBall 101",
+    "Clean Age": "4-6",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6679,
@@ -153,7 +208,12 @@
     "Age Range": [
       4,
       6
-    ]
+    ],
+    "Clean Name": "BBall 101",
+    "Clean Age": "4-6",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6715,
@@ -166,7 +226,12 @@
     "Age Range": [
       5,
       6
-    ]
+    ],
+    "Clean Name": "CHEER & POM FUSION",
+    "Clean Age": "5-6",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6772,
@@ -179,7 +244,12 @@
     "Age Range": [
       10,
       12
-    ]
+    ],
+    "Clean Name": "CHEER CHAMPS",
+    "Clean Age": "10-12",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6723,
@@ -192,7 +262,12 @@
     "Age Range": [
       10,
       12
-    ]
+    ],
+    "Clean Name": "CHEER CHAMPS",
+    "Clean Age": "10-12",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6725,
@@ -205,7 +280,12 @@
     "Age Range": [
       10,
       12
-    ]
+    ],
+    "Clean Name": "CHEER CHAMPS",
+    "Clean Age": "10-12",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6659,
@@ -218,7 +298,12 @@
     "Age Range": [
       4,
       5
-    ]
+    ],
+    "Clean Name": "Cheer",
+    "Clean Age": "4-5",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6771,
@@ -231,7 +316,12 @@
     "Age Range": [
       2,
       2
-    ]
+    ],
+    "Clean Name": "CHEER",
+    "Clean Age": "2",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6653,
@@ -244,7 +334,12 @@
     "Age Range": [
       5,
       7
-    ]
+    ],
+    "Clean Name": "CHEER",
+    "Clean Age": "5-7",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6655,
@@ -257,7 +352,12 @@
     "Age Range": [
       8,
       10
-    ]
+    ],
+    "Clean Name": "CHEER",
+    "Clean Age": "8-10",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6768,
@@ -270,7 +370,12 @@
     "Age Range": [
       1,
       1
-    ]
+    ],
+    "Clean Name": "CHEER",
+    "Clean Age": "1",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6769,
@@ -283,7 +388,12 @@
     "Age Range": [
       2,
       2
-    ]
+    ],
+    "Clean Name": "CHEER",
+    "Clean Age": "2",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6767,
@@ -296,7 +406,12 @@
     "Age Range": [
       1,
       1
-    ]
+    ],
+    "Clean Name": "CHEER",
+    "Clean Age": "1",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6793,
@@ -309,7 +424,12 @@
     "Age Range": [
       5,
       7
-    ]
+    ],
+    "Clean Name": "CHEER",
+    "Clean Age": "5-7",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6774,
@@ -322,7 +442,11 @@
     "Age Range": [
       3,
       4
-    ]
+    ],
+    "Clean Name": "CHEER",
+    "Clean Age": "3-4",
+    "Department": "Cheer & Dance",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6773,
@@ -335,7 +459,12 @@
     "Age Range": [
       3,
       4
-    ]
+    ],
+    "Clean Name": "CHEER",
+    "Clean Age": "3-4",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6770,
@@ -348,7 +477,12 @@
     "Age Range": [
       2,
       2
-    ]
+    ],
+    "Clean Name": "CHEER",
+    "Clean Age": "2",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6777,
@@ -361,7 +495,12 @@
     "Age Range": [
       2,
       2
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "2",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6778,
@@ -374,7 +513,12 @@
     "Age Range": [
       2,
       2
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "2",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6779,
@@ -387,7 +531,12 @@
     "Age Range": [
       2,
       2
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "2",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6783,
@@ -400,7 +549,12 @@
     "Age Range": [
       3,
       5
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "3-5",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6784,
@@ -413,7 +567,12 @@
     "Age Range": [
       3,
       5
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "3-5",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6780,
@@ -426,7 +585,12 @@
     "Age Range": [
       2,
       2
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "2",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6786,
@@ -439,7 +603,12 @@
     "Age Range": [
       3,
       3
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "3",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6785,
@@ -452,7 +621,12 @@
     "Age Range": [
       3,
       5
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "3-5",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6781,
@@ -465,7 +639,12 @@
     "Age Range": [
       2,
       2
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "2",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6787,
@@ -478,7 +657,12 @@
     "Age Range": [
       3,
       3
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "3",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6782,
@@ -491,7 +675,12 @@
     "Age Range": [
       2.5,
       3.5
-    ]
+    ],
+    "Clean Name": "KIDS Class",
+    "Clean Age": "2.5-3.5",
+    "Department": "Multi-Sport",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6675,
@@ -504,7 +693,12 @@
     "Age Range": [
       7,
       10
-    ]
+    ],
+    "Clean Name": "GAME-ON",
+    "Clean Age": "7-10",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6676,
@@ -517,7 +711,12 @@
     "Age Range": [
       7,
       10
-    ]
+    ],
+    "Clean Name": "GAME-ON",
+    "Clean Age": "7-10",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6677,
@@ -530,7 +729,12 @@
     "Age Range": [
       6,
       9
-    ]
+    ],
+    "Clean Name": "GAME-ON",
+    "Clean Age": "6-9",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6678,
@@ -543,7 +747,12 @@
     "Age Range": [
       8,
       11
-    ]
+    ],
+    "Clean Name": "GAME-ON",
+    "Clean Age": "8-11",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6744,
@@ -556,7 +765,12 @@
     "Age Range": [
       8,
       10
-    ]
+    ],
+    "Clean Name": "HIP HOP",
+    "Clean Age": "8-10",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6652,
@@ -569,7 +783,12 @@
     "Age Range": [
       3,
       5
-    ]
+    ],
+    "Clean Name": "HIP HOP",
+    "Clean Age": "3-5",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6696,
@@ -582,7 +801,12 @@
     "Age Range": [
       10,
       12
-    ]
+    ],
+    "Clean Name": "HIP HOP",
+    "Clean Age": "10-12",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6726,
@@ -595,7 +819,12 @@
     "Age Range": [
       10,
       12
-    ]
+    ],
+    "Clean Name": "HIP HOP",
+    "Clean Age": "10-12",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6846,
@@ -608,7 +837,12 @@
     "Age Range": [
       0,
       2
-    ]
+    ],
+    "Clean Name": "J&E Music+Move",
+    "Clean Age": "0-2",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6845,
@@ -621,7 +855,12 @@
     "Age Range": [
       1,
       3
-    ]
+    ],
+    "Clean Name": "J&E Music+Move",
+    "Clean Age": "1-3",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6844,
@@ -634,7 +873,12 @@
     "Age Range": [
       0,
       2
-    ]
+    ],
+    "Clean Name": "J&E Music+Move",
+    "Clean Age": "0-2",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6719,
@@ -647,7 +891,12 @@
     "Age Range": [
       6,
       8
-    ]
+    ],
+    "Clean Name": "JR CHEER CHAMPS",
+    "Clean Age": "6-8",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6662,
@@ -660,7 +909,12 @@
     "Age Range": [
       6,
       8
-    ]
+    ],
+    "Clean Name": "JR CHEER CHAMPS",
+    "Clean Age": "6-8",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6686,
@@ -673,7 +927,12 @@
     "Age Range": [
       8,
       10
-    ]
+    ],
+    "Clean Name": "JR CHEER CHAMPS",
+    "Clean Age": "8-10",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6717,
@@ -686,7 +945,12 @@
     "Age Range": [
       6,
       8
-    ]
+    ],
+    "Clean Name": "JR CHEER CHAMPS",
+    "Clean Age": "6-8",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6697,
@@ -699,7 +963,12 @@
     "Age Range": [
       8,
       10
-    ]
+    ],
+    "Clean Name": "JR CHEER CHAMPS",
+    "Clean Age": "8-10",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6699,
@@ -712,7 +981,12 @@
     "Age Range": [
       6,
       8
-    ]
+    ],
+    "Clean Name": "JR CHEER CHAMPS",
+    "Clean Age": "6-8",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6713,
@@ -725,7 +999,12 @@
     "Age Range": [
       3,
       5
-    ]
+    ],
+    "Clean Name": "JR CHEER CHAMPS",
+    "Clean Age": "3-5",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6712,
@@ -738,7 +1017,12 @@
     "Age Range": [
       6,
       8
-    ]
+    ],
+    "Clean Name": "JR CHEER CHAMPS",
+    "Clean Age": "6-8",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6666,
@@ -751,7 +1035,12 @@
     "Age Range": [
       6,
       9
-    ]
+    ],
+    "Clean Name": "LEVEL-UP",
+    "Clean Age": "6-9",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6667,
@@ -764,7 +1053,12 @@
     "Age Range": [
       5,
       8
-    ]
+    ],
+    "Clean Name": "LEVEL-UP",
+    "Clean Age": "5-8",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6668,
@@ -777,7 +1071,12 @@
     "Age Range": [
       5,
       8
-    ]
+    ],
+    "Clean Name": "LEVEL-UP",
+    "Clean Age": "5-8",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6669,
@@ -790,7 +1089,12 @@
     "Age Range": [
       5,
       8
-    ]
+    ],
+    "Clean Name": "LEVEL-UP",
+    "Clean Age": "5-8",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6720,
@@ -803,7 +1107,12 @@
     "Age Range": [
       6,
       8
-    ]
+    ],
+    "Clean Name": "POM DANCE",
+    "Clean Age": "6-8",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6661,
@@ -816,7 +1125,12 @@
     "Age Range": [
       5,
       7
-    ]
+    ],
+    "Clean Name": "POM DANCE",
+    "Clean Age": "5-7",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6722,
@@ -829,7 +1143,12 @@
     "Age Range": [
       8,
       10
-    ]
+    ],
+    "Clean Name": "POM DANCE",
+    "Clean Age": "8-10",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6716,
@@ -842,7 +1161,12 @@
     "Age Range": [
       10,
       12
-    ]
+    ],
+    "Clean Name": "TUMBLE FOR CHEER",
+    "Clean Age": "10-12",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6724,
@@ -855,7 +1179,12 @@
     "Age Range": [
       6,
       9
-    ]
+    ],
+    "Clean Name": "TUMBLE FOR CHEER",
+    "Clean Age": "6-9",
+    "Department": "Cheer & Dance",
+    "Location": "FB Studios",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6707,
@@ -868,7 +1197,12 @@
     "Age Range": [
       8,
       11
-    ]
+    ],
+    "Clean Name": "FFB-GIRLS",
+    "Clean Age": "8-11",
+    "Department": "Flag Football",
+    "Location": "NA",
+    "Gender": "Girls"
   },
   {
     "ID": 6709,
@@ -881,7 +1215,12 @@
     "Age Range": [
       9,
       11
-    ]
+    ],
+    "Clean Name": "FFB-GIRLS",
+    "Clean Age": "9-11",
+    "Department": "Flag Football",
+    "Location": "NA",
+    "Gender": "Girls"
   },
   {
     "ID": 6708,
@@ -894,7 +1233,12 @@
     "Age Range": [
       7,
       9
-    ]
+    ],
+    "Clean Name": "FFB-GIRLS",
+    "Clean Age": "7-9",
+    "Department": "Flag Football",
+    "Location": "NA",
+    "Gender": "Girls"
   },
   {
     "ID": 6700,
@@ -907,7 +1251,12 @@
     "Age Range": [
       8,
       12
-    ]
+    ],
+    "Clean Name": "FFB-QB Class",
+    "Clean Age": "8-12",
+    "Department": "Flag Football",
+    "Location": "Central Park East (97th / 5th)",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6701,
@@ -920,7 +1269,12 @@
     "Age Range": [
       4,
       6
-    ]
+    ],
+    "Clean Name": "FFB",
+    "Clean Age": "4-6",
+    "Department": "Flag Football",
+    "Location": "Dwight Athletic Center",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6702,
@@ -933,7 +1287,12 @@
     "Age Range": [
       7,
       9
-    ]
+    ],
+    "Clean Name": "FFB",
+    "Clean Age": "7-9",
+    "Department": "Flag Football",
+    "Location": "Dwight Athletic Center",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6704,
@@ -946,7 +1305,12 @@
     "Age Range": [
       6,
       8
-    ]
+    ],
+    "Clean Name": "FFB",
+    "Clean Age": "6-8",
+    "Department": "Flag Football",
+    "Location": "Central Park East (97th / 5th)",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6705,
@@ -959,7 +1323,12 @@
     "Age Range": [
       8,
       10
-    ]
+    ],
+    "Clean Name": "FFB",
+    "Clean Age": "8-10",
+    "Department": "Flag Football",
+    "Location": "Central Park East (97th / 5th)",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6706,
@@ -972,7 +1341,12 @@
     "Age Range": [
       10,
       12
-    ]
+    ],
+    "Clean Name": "FFB",
+    "Clean Age": "10-12",
+    "Department": "Flag Football",
+    "Location": "Central Park East (97th / 5th)",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6556,
@@ -985,7 +1359,12 @@
     "Age Range": [
       8,
       10
-    ]
+    ],
+    "Clean Name": "Hoop Academy",
+    "Clean Age": "8-10",
+    "Department": "Basketball",
+    "Location": "Sacred Heart Athletic Center",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6557,
@@ -998,7 +1377,12 @@
     "Age Range": [
       11,
       13
-    ]
+    ],
+    "Clean Name": "Hoop Academy",
+    "Clean Age": "11-13",
+    "Department": "Basketball",
+    "Location": "Sacred Heart Athletic Center",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6558,
@@ -1011,7 +1395,12 @@
     "Age Range": [
       6,
       7
-    ]
+    ],
+    "Clean Name": "Jr Hoop Academy",
+    "Clean Age": "6-7",
+    "Department": "Basketball",
+    "Location": "Sacred Heart Athletic Center",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6559,
@@ -1024,7 +1413,12 @@
     "Age Range": [
       5,
       6
-    ]
+    ],
+    "Clean Name": "Jr Hoop Academy",
+    "Clean Age": "5-6",
+    "Department": "Basketball",
+    "Location": "All Souls",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6739,
@@ -1037,7 +1431,12 @@
     "Age Range": [
       14,
       1000
-    ]
+    ],
+    "Clean Name": "ETA & PLAY",
+    "Clean Age": "14+",
+    "Department": "Basketball",
+    "Location": "PS 183",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6738,
@@ -1050,7 +1449,12 @@
     "Age Range": [
       11,
       13
-    ]
+    ],
+    "Clean Name": "ETA & PLAY",
+    "Clean Age": "11-13",
+    "Department": "Basketball",
+    "Location": "PS 183",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6732,
@@ -1063,7 +1467,12 @@
     "Age Range": [
       9,
       11
-    ]
+    ],
+    "Clean Name": "ETA",
+    "Clean Age": "9-11",
+    "Department": "Basketball",
+    "Location": "Windward",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6733,
@@ -1076,7 +1485,12 @@
     "Age Range": [
       11,
       13
-    ]
+    ],
+    "Clean Name": "ETA",
+    "Clean Age": "11-13",
+    "Department": "Basketball",
+    "Location": "Windward",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6734,
@@ -1089,7 +1503,12 @@
     "Age Range": [
       13,
       17
-    ]
+    ],
+    "Clean Name": "ETA",
+    "Clean Age": "13-17",
+    "Department": "Basketball",
+    "Location": "NA",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6735,
@@ -1102,7 +1521,12 @@
     "Age Range": [
       9,
       11
-    ]
+    ],
+    "Clean Name": "ETA",
+    "Clean Age": "9-11",
+    "Department": "Basketball",
+    "Location": "Windward",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6736,
@@ -1115,7 +1539,12 @@
     "Age Range": [
       11,
       13
-    ]
+    ],
+    "Clean Name": "ETA",
+    "Clean Age": "11-13",
+    "Department": "Basketball",
+    "Location": "Windward",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6737,
@@ -1128,7 +1557,12 @@
     "Age Range": [
       13,
       17
-    ]
+    ],
+    "Clean Name": "ETA",
+    "Clean Age": "13-17",
+    "Department": "Basketball",
+    "Location": "NA",
+    "Gender": "Co-Ed"
   },
   {
     "ID": 6727,
@@ -1141,7 +1575,12 @@
     "Age Range": [
       8,
       11
-    ]
+    ],
+    "Clean Name": "Hustle",
+    "Clean Age": "8-11",
+    "Department": "Basketball",
+    "Location": "Allen Stevenson",
+    "Gender": "Girls"
   },
   {
     "ID": 6728,
@@ -1154,7 +1593,12 @@
     "Age Range": [
       11,
       14
-    ]
+    ],
+    "Clean Name": "Hustle",
+    "Clean Age": "11-14",
+    "Department": "Basketball",
+    "Location": "Allen Stevenson",
+    "Gender": "Girls"
   },
   {
     "ID": 6613,
@@ -1167,7 +1611,12 @@
     "Age Range": [
       8,
       11
-    ]
+    ],
+    "Clean Name": "Hustle",
+    "Clean Age": "8-11",
+    "Department": "Basketball",
+    "Location": "Allen Stevenson",
+    "Gender": "Girls"
   },
   {
     "ID": 6614,
@@ -1180,7 +1629,12 @@
     "Age Range": [
       11,
       14
-    ]
+    ],
+    "Clean Name": "Hustle",
+    "Clean Age": "11-14",
+    "Department": "Basketball",
+    "Location": "Allen Stevenson",
+    "Gender": "Girls"
   },
   {
     "ID": 6615,
@@ -1193,7 +1647,12 @@
     "Age Range": [
       8,
       11
-    ]
+    ],
+    "Clean Name": "Hustle",
+    "Clean Age": "8-11",
+    "Department": "Basketball",
+    "Location": "Allen Stevenson",
+    "Gender": "Girls"
   },
   {
     "ID": 6616,
@@ -1206,7 +1665,12 @@
     "Age Range": [
       11,
       14
-    ]
+    ],
+    "Clean Name": "Hustle",
+    "Clean Age": "11-14",
+    "Department": "Basketball",
+    "Location": "Allen Stevenson",
+    "Gender": "Girls"
   },
   {
     "ID": 6617,
@@ -1219,7 +1683,12 @@
     "Age Range": [
       6,
       9
-    ]
+    ],
+    "Clean Name": "Hustle",
+    "Clean Age": "6-9",
+    "Department": "Basketball",
+    "Location": "FB HQ Main Court",
+    "Gender": "Girls"
   },
   {
     "ID": 6610,
@@ -1232,7 +1701,12 @@
     "Age Range": [
       12,
       14
-    ]
+    ],
+    "Clean Name": "HUSTLE",
+    "Clean Age": "12-14",
+    "Department": "Basketball",
+    "Location": "Trevor Day School",
+    "Gender": "Girls"
   },
   {
     "ID": 6611,
@@ -1245,7 +1719,12 @@
     "Age Range": [
       7,
       10
-    ]
+    ],
+    "Clean Name": "HUSTLE Hoop Academy",
+    "Clean Age": "7-10",
+    "Department": "Basketball",
+    "Location": "Trevor Day School",
+    "Gender": "Girls"
   },
   {
     "ID": 6612,
@@ -1258,6 +1737,11 @@
     "Age Range": [
       10,
       12
-    ]
+    ],
+    "Clean Name": "HUSTLE Hoop Academy",
+    "Clean Age": "10-12",
+    "Department": "Basketball",
+    "Location": "Trevor Day School",
+    "Gender": "Girls"
   }
 ]

@@ -1,4 +1,4 @@
-import programs from './program_data.json';
+import programs from './programs_09-06-24.json';
 /**
  * Retrieves a list of programs based on the specified criteria.
  * 
@@ -10,32 +10,58 @@ import programs from './program_data.json';
  */
 function getPrograms(
   department: string = 'All',
-  ages: number[] = [],
-  age_type: string = 'Years',
+  ageSpec: {range: number[], unit: string} = {range: [], unit: ''},
   gender: string = 'Co-Ed',
   days: string[] = [],
+  locations: string[] = []
   ) {
-    // convert the grades if age_type is 'Grades'
-    if (age_type === 'Grades') {
-      ages = [ages[0] + 2, ages[1] + 3];
-    }
+  // convert the grades if age_type is 'Grades'
+  if (ageSpec.range.length === 1) {
+    ageSpec.range = [ageSpec.range[0], ageSpec.range[0]];
+  }
+  if (ageSpec.unit === 'Grades') {
+    ageSpec.range = [ageSpec.range[0] + 5, ageSpec.range[1] + 6];
+  }
   function rangeoverlap(r1: number[], r2: number[]): boolean {
     // check if the age ranges overlap
     return (r1[0] >= r2[0] && r1[0] <= r2[1]) || (r1[1] >= r2[0] && r1[1] <= r2[1]);
   }
-  // search for programs based on the specified criteria
-  console.log('Searching for programs...');
+  function gendermatch(dep: string, g1: string, g2: string): boolean {
+    // for girls cheer just return true
+    if (dep === 'Cheer & Dance' && g1 === 'Girls') {
+      return true;
+    }
+    // check if the gender criteria matches
+    return g1 === g2 || (g1 === 'Boys' && g2 === 'Co-Ed');
+  }
 
+  // search for programs based on the specified criteria
   // filter the programs based on the specified criteria
   const filteredPrograms = programs.filter((program) => {
     return (
-      // (department === 'all' || program.Department === department) &&
-      (ages.length === 0 || rangeoverlap(ages, program['Age Range'])) &&
-      (days.length === 0 || days.includes(program.Day))
+      (department === 'All' || program.Department === department) &&
+      (ageSpec.range.length === 0 || rangeoverlap(ageSpec.range, program['Age Range'])) &&
+      (days.length === 0 || days.includes(program.Day)) &&
+      (gender === 'Co-Ed' || gendermatch(department, gender, program.Gender)) &&
+      (locations.length === 0 || locations.includes(program.Location))
     );
+  })
+
+  const toTable = filteredPrograms.map((program) => {
+    const out = {
+      "ID": program.ID,
+      "Department": program.Department,
+      "Name": program['Clean Name'],
+      "Day": program.Day,
+      "Start Time": program['Start Time'],
+      "End Time": program['End Time'],
+      'Gender': program.Gender,
+      "Location": program.Location,
+      "Age (Years)": program['Clean Age']
+    };
+    return out;
   });
-  console.log(filteredPrograms);
-  return filteredPrograms;
+  return toTable;
 }
 
 export { getPrograms };
