@@ -16,12 +16,20 @@ const getProgramsExamples = `
   Output: {"department":"Basketball","ageSpec":{"range":[6],"unit":"Years"},"days":["Monday","Tuesday","Wednesday"], "locations":["FB HQ Main Court", "All Souls"]}
   Input: "4th grade girls cheer"
   Output: {"department":"Cheer & Dance","ageSpec":{"range":[4],"unit":"Grades"},"gender":"Girls"}
-  Input: "What programs do you have for my son, he's 7 years old going into 1st grade."
-  Output: {"department":"All","ageSpec":{"range":[7],"unit":"Years"}, "gender":"Boys"}
-  Input: "My child is really into flag football. Do you have any programs for her?"
-  Output: {"department":"Flag Football", "gender": "Girls"}
-  Input: "Show me all the Fastbreak programs this fall"
-  Output: {"department":"All"}
+  Input: "What programs do you have for my son, he's in kindergarten"
+  Output: {"department":"All","ageSpec":{"range":[0],"unit":"Grades"}, "gender":"Boys"}
+  Input: "My child is really into flag football. Do you have any programs for her? We can only do later than 5pm"
+  Output: {"department":"Flag Football", "gender": "Girls", "timeRange": {"start": "17:00", "end": "23:59"}}
+  Input: "any programs saturday afternoons?"
+  Output: {"days":["Saturday"], "timeRange": {"start": "12:00", "end": "18:00"}}
+  Input: "My daughter is really into dance. Do you have any afterschool programs for her?"
+  Output: {"department": "Cheer & Dance", "gender":"Girls", "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"], "timeRange": {"start": "15:00", "end": "18:00"}}
+  Input: "afterschool bball for elementary school kids"
+  Output: {"department":"Basketball","ageSpec":{"range":[0, 1, 2, 3, 4, 5],"unit":"Grades"},"days":["Monday","Tuesday","Wednesday","Thursday","Friday"]}
+  Input: "Game-on and level-up programs on the weekdays"
+  Output: {"name":["LEVEL-UP", "GAME-ON"], "days":["Monday","Tuesday","Wednesday","Thursday","Friday"]}
+  Input: "Hustle programs after 5pm"
+  Output: {"name":["Hustle"], "timeRange": {"start": "17:00", "end": "23:59"}}
 `;
 
 const programInstruction = `
@@ -30,7 +38,7 @@ Use the tool to get program information and then summarize the results for the u
 Here are some examples of what arguments to provide to the tool:
 ${getProgramsExamples}
 Here are full examples of how to use the tool and respond to the user:
-Input: What are the basketball programs for my son who's in 4th grade? We can only do weekdays.
+Input: What are the afterschool basketball programs for my son who's in 4th grade?
 Toolcall: {"department":"Basketball","ageSpec":{"range":[4],"unit":"Grades", "days":["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]}}
 (table of program info will be outputted)
 Output: (Summarize the info in the table, DO NOT NUMBER RESULTS.) 
@@ -56,10 +64,10 @@ Here are all our weekday basketball programs for a 4th grader at various days, t
 Let me know if you need more information on any of these programs.
 
 Here is another full example:
-Input: "What multi-sport programs do you have for my 6-year-old?"
-Toolcall: {"department":"Multi-Sport","ageSpec":{"range":[6, 7],"unit":"Years"}}
+Input: "What multi-sport programs do you have for my 6-year-old? We can only do before 5:30."
+Toolcall: {"department":"Multi-Sport","ageSpec":{"range":[6, 7],"unit":"Years"}, "timeRange": {"start": "00:00", "end": "17:30"}}
 Output: (Summarize the info in the table, DO NOT NUMBER RESULTS.)
-Here are the multi-sport programs available for 6-7 year olds:
+Here are the multi-sport programs available for 6-7 year olds before 5:30pm:
 
 **Multi-Sport Fun** - For ages 6-7:
   - Monday, 4:00pm-5:00pm
@@ -78,6 +86,14 @@ const locDescription = `Optional argument to specify locations of programs, any 
 FB HQ Main Court, FB Studios, All Souls, Central Park East (97th / 5th), 
 Central Park East (84th / 5th), Allen Stevenson, Dwight Athletic Center, 
 Trevor Day School, Sacred Heart Athletic Center, PS 183, Windward
+`;
+
+const nameDescription = `
+The name of the program. The options are:
+Baseball Trial, Soccer Trial, Tennis Trial, 3 Cheers 4 You, BabyBallers, BBall 101, 
+CHEER & POM FUSION, CHEER CHAMPS, Cheer, HIP HOP, J&E Music+Move, JR CHEER CHAMPS, GAME-ON, LEVEL-UP, POM DANCE,
+ TUMBLE FOR CHEER, FFB-GIRLS, FFB-QB Class, FFB, Hoop Academy, Jr Hoop Academy, ETA & PLAY, ETA, Hustle, 
+ HUSTLE Hoop Academy. HUSTLE IS NOT A DEPARTMENT, IT IS A NAME OF A PROGRAM.
 `;
 
   const assistant = await openai.beta.assistants.create({
@@ -133,6 +149,25 @@ Trevor Day School, Sacred Heart Athletic Center, PS 183, Windward
                 },
                 description: locDescription,
               },
+              "timeRange": {
+                type: "object",
+                properties: {
+                  "start": {
+                    type: "string"
+                  },
+                  "end": {
+                    type: "string"
+                  }
+                },
+                description: "Optional argument to specify time range of programs, any if unspecified, so for 4pm to 6pm, you would use {start: '4:00pm', end: '6:00pm'}.",
+              },
+              "names": {
+                type: "array",
+                items: {
+                  type: "string"
+                },
+                description: nameDescription
+              }
             },
             required: [],
             },

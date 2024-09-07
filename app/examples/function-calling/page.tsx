@@ -26,7 +26,7 @@ const FunctionCalling = () => {
       return JSON.stringify(data);
     } else if (call?.function?.name === "getPrograms") {
       const args = JSON.parse(call.function.arguments);
-      const data = getPrograms(args.department, args.ageSpec, args.gender, args.days, args.locations);
+      const data = getPrograms(args.department, args.ageSpec, args.gender, args.days, args.locations, args.timeRange, args.names);
       return JSON.stringify(data);
     }
   };
