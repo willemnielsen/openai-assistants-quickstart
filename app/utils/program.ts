@@ -1,4 +1,3 @@
-import { time } from 'console';
 import programs from './programs_09-06-24.json';
 /**
  * Retrieves a list of programs based on the specified criteria.
