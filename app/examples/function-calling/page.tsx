@@ -5,14 +5,14 @@ import Chat from "../../components/chat";
 import { getPrograms } from "../../utils/program";
 import { RequiredActionFunctionToolCall } from "openai/resources/beta/threads/runs/runs";
 import { useState } from "react";
+import { useRouter } from 'next/router';
+import SearchBar from './searchbar';
 
 
-  const FunctionCalling = () => {
-    const [searchValue, setSearchValue] = useState("");
 
-    const handleSearchChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-      setSearchValue(event.target.value);
-    };
+
+
+const FunctionCalling = () => {
 
     const functionCallHandler = async (call: RequiredActionFunctionToolCall) => {
       if (call?.function?.name === "getPrograms") {
@@ -21,14 +21,11 @@ import { useState } from "react";
         return JSON.stringify(data);
       }
     };
-
+    
     return (
       <main className={styles.main}>
         <div className={styles.container}>
-          <div className={styles.searchBar}>
-            <label htmlFor="search">Active Customer:</label>
-            <input type="text" id="search" value={searchValue} onChange={handleSearchChange} />
-          </div>
+        <SearchBar placeholder="Find customer" />
           <div className={styles.chatContainer}>
             <div className={styles.chat}>
               <Chat functionCallHandler={functionCallHandler} />

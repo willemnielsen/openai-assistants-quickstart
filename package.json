@@ -9,12 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@algolia/autocomplete-js": "^1.17.4",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@meilisearch/instant-meilisearch": "^0.20.0",
     "fs": "^0.0.1-security",
+    "instantsearch.js": "^4.74.1",
+    "meilisearch": "^0.42.0",
     "mixins": "^0.0.1",
     "next": "14.1.4",
     "openai": "^4.46.0",
     "react": "^18",
     "react-dom": "^18",
+    "react-instantsearch-dom": "^6.40.4",
     "react-markdown": "^9.0.1",
     "remark-gfm": "^4.0.0",
     "tablemark": "^3.1.0"
