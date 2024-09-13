@@ -6,6 +6,10 @@
   height: 100vh;
 }
 
+.navbar {
+  background-color: rgb(243, 247, 255);
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -36,7 +40,6 @@
   flex-direction: column;
   align-items: center;
   background-color: white;
-
 }
 
 .chat {

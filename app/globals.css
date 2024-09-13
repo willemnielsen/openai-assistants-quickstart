@@ -7,7 +7,15 @@
   --j1opnm9c-typeface-ui: -apple-system, BlinkMacSystemFont, 
   'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 
   'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --primary-color: rgb(28, 78, 214);
+  --accent-color: black;
+  --theme-3: rgb(39, 155, 74);
+  --theme-4: rgb(243, 247, 255);
+  --overlay: rgb(219, 223, 231, 0.75);
+  --input-text: #b2b2b2;
+  --border-focus: skyblue;
 }
+
 
 * {
   box-sizing: border-box;
