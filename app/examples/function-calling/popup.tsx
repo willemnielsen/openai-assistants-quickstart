@@ -18,9 +18,10 @@ const Popup = ({isOpen, onClose}) => {
   return (
     <CSSTransition
     nodeRef={nodeRef}
-    timeout={{enter: 500,exit: 100 }}
+    timeout={{appear: 0, enter: 1000,exit: 100 }}
     in={isOpen}
     classNames={{
+      appear: styles.overlayAppear,
       enter: styles.overlayEnter,
       enterActive: styles.overlayEnterActive,
       exit: styles.overlayExit,

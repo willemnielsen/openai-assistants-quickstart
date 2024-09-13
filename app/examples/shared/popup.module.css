@@ -16,20 +16,20 @@
 
 /* Entering (appearing) */
 .overlayEnter {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .overlayEnterActive {
   background-color: var(--overlay);
-  transition: background-color 0.2s ease;
+  transition: background-color 0.1s ease;
 }
 
 .overlayExitActive {
-  background-color: white;
-  transition: background-color 0.2s ease;
+  background-color:  rgba(255, 255, 255, 0);
+  transition: background-color 0.1s ease;
 }
 
-.popupContent {
+.overlayAppear .popupContent {
   /* Existing styles */
   background: white;
   border-radius: 5px;
