@@ -59,24 +59,39 @@ async function main() {
         const updateQuery = `
           UPDATE customers
           SET gender = ?
-          WHERE id = ?
+          WHERE customer_id = ?
         `;
         await query(updateQuery, [Gender, parseInt(CID, 10)]);
       }
     }
+      // if (CID && Gender) {
+      //   const updateQuery = `
+      //     UPDATE customers
+      //     SET gender = ?
+      //     WHERE id = ?
+      //   `;
+      //   await query(updateQuery, [Gender, parseInt(CID, 10)]);
+      } catch (error) {
+        console.error('An error occurred:', error);
+        throw error; // Throw the error instead of exiting the process
+      } finally {
+        if (pool) {
+          await pool.end(); // Ensure the connection pool is closed
+        }
+      }
 
-    console.log('Gender values updated successfully');
+  //   console.log('Gender values updated successfully');
 
-    // Fetch and log a sample of updated results
-    const results = await query('SELECT * FROM customers WHERE gender IS NOT NULL LIMIT 10');
-    console.log('Sample of updated customers:', results);
-  } catch (error) {
-    console.error('Error executing query:', error);
-  } finally {
-    if (pool) {
-      await pool.end();
-    }
-  }
+  //   // Fetch and log a sample of updated results
+  //   const results = await query('SELECT * FROM customers WHERE gender IS NOT NULL LIMIT 10');
+  //   console.log('Sample of updated customers:', results);
+  // } catch (error) {
+  //   console.error('Error executing query:', error);
+  // } finally {
+  //   if (pool) {
+  //     await pool.end();
+  //   }
+  // }
 }
 
 async function importCSVData(filePath) {
@@ -91,5 +106,60 @@ async function importCSVData(filePath) {
       .on('error', reject);
   });
 }
+
+async function getUniqueGenderValues() {
+  try {
+    const uniqueGenders = await query('SELECT DISTINCT gender FROM customers WHERE gender IS NOT NULL');
+    console.log('Unique gender values:', uniqueGenders);
+    return uniqueGenders.map(row => row.gender);
+  } catch (error) {
+    console.error('Error fetching unique gender values:', error);
+    throw error;
+  }
+}
+// async function main() {
+//   try {
+//     const uniqueGenders = await getUniqueGenderValues();
+//     console.log('Unique gender values:', uniqueGenders);
+//   } catch (error) {
+//     console.error('An error occurred:', error);
+//     process.exit(1);
+//   }
+// }
+
+async function getMaxWinikGender() {
+  try {
+    const result = await query('SELECT gender FROM customers WHERE full_name = ? LIMIT 1', ['Max Winik']);
+    if (result.length > 0) {
+      console.log('Max Winik\'s gender:', result[0].gender);
+      return result[0].gender;
+    } else {
+      console.log('Max Winik not found in the database.');
+      return null;
+    }
+  } catch (error) {
+    console.error('Error fetching Max Winik\'s gender:', error);
+    throw error;
+  }
+}
+
+// // Add this to the main function
+// async function main() {
+//   try {
+//     const uniqueGenders = await getUniqueGenderValues();
+//     console.log('Unique gender values:', uniqueGenders);
+
+//     // Fetch and display Max Winik's gender
+//     const maxWinikGender = await getMaxWinikGender();
+//     if (maxWinikGender) {
+//       console.log('Max Winik\'s gender:', maxWinikGender);
+//     }
+//   } catch (error) {
+//     console.error('An error occurred:', error);
+//     process.exit(1);
+//   }
+// }
+
+
 
 main();

@@ -20,8 +20,15 @@ export async function GET(request) {
   try {
     // Use pool.query directly instead of getting a client
     const [rows] = await pool.query(
-      'SELECT * FROM customers WHERE full_name LIKE ? OR phone_day LIKE ? OR email LIKE ? OR birth_date LIKE ? LIMIT 5',
-      [`%${query}%`, `%${query}%`, `%${query}%`, `%${query}%`]
+      `SELECT * FROM customers WHERE full_name LIKE ? 
+      OR phone_day LIKE ? 
+      OR email LIKE ? 
+      OR birthdate LIKE ? 
+      OR first_name LIKE ?
+      OR last_name LIKE ?
+      LIMIT 5
+      `,
+      [`%${query}%`, `%${query}%`, `%${query}%`, `%${query}%`, `%${query}%`, `%${query}%`]
     );
     return Response.json(rows);
   } catch (error) {

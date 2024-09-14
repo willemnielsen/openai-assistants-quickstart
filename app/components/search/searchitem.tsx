@@ -14,17 +14,18 @@ function SearchItem({ customer }) {
     }
     return age;
   }
-  console.log(customer);
 
   const formattedPhone = customer.phone_day
     ? customer.phone_day.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3')
     : 'N/A';
-
   const age = calculateAge(customer.birthdate);
+  if (customer.full_name === 'Max Winik') {
+    console.log(customer);
+  }
   return (
     <a>
     <li className={styles.searchItem}>
-      <SearchItemIcon gender="male" age={age} />
+      <SearchItemIcon gender={customer.gender} age={age} />
         <div className={styles.searchItemInfo}>
           <div className={styles.searchItemName}>{customer.full_name}</div>
           <div className={styles.searchItemContact}>
