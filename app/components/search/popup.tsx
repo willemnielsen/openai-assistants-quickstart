@@ -1,8 +1,10 @@
 import React, { useState, useRef } from 'react';
-import styles from '../shared/popup.module.css'; // CSS module for styling
+import styles from './popup.module.css'; // CSS module for styling
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { CSSTransition } from 'react-transition-group';
+import SearchBody from './searchbody';
+import SearchHeader from './searchheader';
 
 
 const Popup = ({isOpen, onClose}) => {
@@ -35,17 +37,8 @@ const Popup = ({isOpen, onClose}) => {
       onClick={handleOverlayClick}
     >
       <div className={styles.popupContent}>
-      <header className={styles.popupHeader}>
-        <div className={styles.searchBar}>
-          <FontAwesomeIcon icon={faSearch} className={styles.searchIcon} />
-          <input placeholder='Find customer'className={styles.searchInput}/>
-        </div>
-        <a className={styles.close}>
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width={27} height={27}>
-          <path stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M6 18L18 6M6 6l12 12" />
-        </svg>
-        </a>
-      </header>
+      <SearchHeader />
+      <SearchBody />
       </div>
     </div>
   </CSSTransition>

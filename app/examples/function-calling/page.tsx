@@ -6,8 +6,8 @@ import { getPrograms } from "../../utils/program";
 import { RequiredActionFunctionToolCall } from "openai/resources/beta/threads/runs/runs";
 import { useState } from "react";
 import { useRouter } from 'next/router';
-import SearchBar from './searchbar';
-import Popup from './popup'
+import SearchBar from '../../components/search/searchbar';
+import Popup from '../../components/search/popup'
 
 
 
@@ -31,7 +31,7 @@ const FunctionCalling = () => {
       <main className={styles.main}>
         <div className={styles.container}>
         <nav className={styles.navbar}>
-        <SearchBar placeholder="Find customer" onClick={openPopup}/>
+        <SearchBar onClick={openPopup}/>
         <Popup isOpen={isPopupOpen} onClose={closePopup}></Popup>
         </nav>
           <div className={styles.chatContainer}>

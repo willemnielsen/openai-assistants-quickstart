@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import styles from '../shared/searchbar.module.css'; // Import CSS module
+import styles from './searchbar.module.css'; // Import CSS module
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 
@@ -28,7 +28,7 @@ const SearchBar = ({ placeholder = "Search...", onClick }) => {
       <>
         <button className={styles.searchBar} onClick={onClick}>
         <FontAwesomeIcon icon={faSearch} className={styles.searchIcon} />
-        <p className={styles.searchInput}>Find customer, program, or event</p>
+        <p className={styles.searchInput}>Find customer</p>
         </button>
       </>
       // </div>

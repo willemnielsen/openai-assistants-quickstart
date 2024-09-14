@@ -29,7 +29,7 @@
   transition: background-color 0.1s ease;
 }
 
-.overlayAppear .popupContent {
+.popupContent {
   /* Existing styles */
   background: white;
   border-radius: 5px;
@@ -40,20 +40,54 @@
 .popupHeader {
   display: flex;
   flex-direction: row;
-  margin-top: 5px;
+  padding: 8px;
+  align-items: center;
+  gap: 5px;
 }
 
 .searchInput {
   font-size: 16px;
-  /* color: #b2b2b2; */
+  color: black;
   width: 100%;
   text-align: left;
   border:transparent;
-  margin-left: 2px
+  margin-left: 2px;
 }
 
-.searchInput:placeholder{
-  color: #cbcbcb;
+.searchInput::placeholder {
+  color: var(--input-text);
 }
 
+.searchInput:focus {
+  outline: none;
+}
+
+.searchIcon {
+  font-size: 11px;
+  margin-left: 10px;
+  color: rgb(78, 78, 78);
+}
+
+.searchContent {
+  display: flex-column;
+  padding: 20px;
+  padding-top: 0px
+}
+
+.searchItem {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  gap: 10px;
+  border-bottom: 1px solid var(--border);
+  color: var(--regular-text);
+  font-size: 15px;
+  background-color: aliceblue;
+  align-items: center;
+}
+
+.searchItemContact {
+  font-size: 12px;
+  color: var(--sub-text);
+}
 

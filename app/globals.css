@@ -12,8 +12,10 @@
   --theme-3: rgb(39, 155, 74);
   --theme-4: rgb(243, 247, 255);
   --overlay: rgb(219, 223, 231, 0.75);
-  --input-text: #b2b2b2;
+  --input-text: #bbbbbb;
   --border-focus: skyblue;
+  --regular-text: #646464;
+  --sub-text: #a0a0a0;
 }
 
 
@@ -72,9 +74,6 @@ ol {
   padding-left: 20px;
 }
 
-a {
-  color: blue;
-}
 
 pre {
   margin: -4px -16px;

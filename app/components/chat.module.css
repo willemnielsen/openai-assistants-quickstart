@@ -31,12 +31,12 @@
 }
 
 .input::placeholder {
-  color: var(--input-text);
+  color: var(--regular-text);
 }
 
 .input:focus {
   outline: none !important;
-  border-color: #000;
+  border-color: var(--primary-color);
 }
 
 .button {
