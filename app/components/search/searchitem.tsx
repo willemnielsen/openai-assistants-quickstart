@@ -17,8 +17,6 @@ function SearchItem({ customer }) {
 
   const formattedPhone = customer.phone.replace(/(\d{3})(\d{3})(\d{3})/, '$1-$2-$3');
 
-  console.log(formattedPhone);
-
   const age = calculateAge(customer.birthdate);
   return (
     <a>

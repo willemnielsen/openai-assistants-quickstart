@@ -1,17 +1,13 @@
 import React from 'react'
 import styles from './popup.module.css'
 import SearchItem from './searchitem'
+import { Customer } from '@/types/customer';
 
-function SearchBody() {
-  const sampleCustomer = {
-    name: 'Jon Snow',
-    gender: 'male',
-    email: 'jsnow@example.com',
-    phone: '1234567890',
-    birthdate: '12/12/1980',
-    family_ids: [1, 2, 3]
-  }
+interface SearchBodyProps {
+  customers: Customer[];
+}
 
+function SearchBody({ customers }: SearchBodyProps) {
   const sampleCustomers = [
     {
       name: 'Daenerys Targaryen',
@@ -37,11 +33,9 @@ function SearchBody() {
       birthdate: '11/25/2010',
       family_ids: [10, 11, 12]
     },
-
   ];
 
-  // Render the sample customers
-  const customerItems = sampleCustomers.map((customer, index) => (
+  const customerItems = customers.map((customer, index) => (
     <SearchItem key={index} customer={customer} />
   ));
 
