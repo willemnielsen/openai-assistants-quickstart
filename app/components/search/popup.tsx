@@ -1,7 +1,5 @@
 import React, { useState, useRef } from 'react';
 import styles from './popup.module.css'; // CSS module for styling
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { CSSTransition } from 'react-transition-group';
 import SearchBody from './searchbody';
 import SearchHeader from './searchheader';
@@ -37,7 +35,7 @@ const Popup = ({isOpen, onClose}) => {
       onClick={handleOverlayClick}
     >
       <div className={styles.popupContent}>
-      <SearchHeader />
+      <SearchHeader onClose={onClose} />
       <SearchBody />
       </div>
     </div>

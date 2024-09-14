@@ -12,10 +12,11 @@
   --theme-3: rgb(39, 155, 74);
   --theme-4: rgb(243, 247, 255);
   --overlay: rgb(219, 223, 231, 0.75);
-  --input-text: #bbbbbb;
+  --input-text: #b7bbd3;
   --border-focus: skyblue;
   --regular-text: #646464;
   --sub-text: #a0a0a0;
+  --hover: #e6e6e6;
 }
 
 

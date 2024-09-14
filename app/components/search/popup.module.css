@@ -33,16 +33,27 @@
   /* Existing styles */
   background: white;
   border-radius: 5px;
-  width: 600px;
-  margin: 20px;
+  width: 650px;
+  margin: 15px;
 }
 
 .popupHeader {
   display: flex;
   flex-direction: row;
-  padding: 8px;
+  padding: 10px;
   align-items: center;
   gap: 5px;
+}
+
+.close {
+  background: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.close:focus {
+  outline: 3px solid var(--border-focus);
 }
 
 .searchInput {
@@ -70,24 +81,66 @@
 
 .searchContent {
   display: flex-column;
-  padding: 20px;
-  padding-top: 0px
+  padding: 15px;
+  border-top: 1px solid var(--input-text);
 }
 
 .searchItem {
   display: flex;
   flex-direction: row;
-  padding: 8px;
-  gap: 10px;
-  border-bottom: 1px solid var(--border);
+  padding: 5px;
+  gap: 20px;
   color: var(--regular-text);
-  font-size: 15px;
-  background-color: aliceblue;
   align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* .searchItem:last-child {
+  gap: 20px;
+} */
+
+.searchItem:hover {
+  background-color: var(--hover);
+  transition: background-color 0.5s ease;
+}
+
+.searchItem:not(:hover) {
+  background-color: transparent;
+  transition: background-color 0.5s ease;
+}
+
+.searchItemInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.searchItemName {
+  font-size: 14px;
+  color: var(--regular-text);
 }
 
 .searchItemContact {
-  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  font-size: 13px;
   color: var(--sub-text);
+  gap: 8px;
+}
+
+.arrow {
+  stroke: #7A7A7A;
+}
+
+.arrowDiv {
+  margin-left: auto;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.searchItem:hover .arrowDiv {
+  opacity: 1;
+  margin-top: 2px;
 }
 

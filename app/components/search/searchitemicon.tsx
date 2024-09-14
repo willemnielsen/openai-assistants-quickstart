@@ -9,7 +9,7 @@ function SearchItemIcon({ gender, age }: { gender: string; age: number; }) {
     emoji = age < 18 ? '🏃‍♀️' : '👩‍🦳'; // Running girl for young girl, mom for old woman
   }
   return (
-    <span>
+    <span style={{ marginBottom: '5px' }}>
       {emoji}
     </span>
   )
