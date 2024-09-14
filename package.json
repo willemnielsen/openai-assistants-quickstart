@@ -13,6 +13,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
     "@meilisearch/instant-meilisearch": "^0.20.0",
+    "csv-parser": "^3.0.0",
     "fs": "^0.0.1-security",
     "instantsearch.js": "^4.74.1",
     "meilisearch": "^0.42.0",

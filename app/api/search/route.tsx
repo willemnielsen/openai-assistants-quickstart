@@ -20,8 +20,8 @@ export async function GET(request) {
   try {
     // Use pool.query directly instead of getting a client
     const [rows] = await pool.query(
-      'SELECT * FROM customers WHERE last_name LIKE ? LIMIT 5',
-      [`%${query}%`]
+      'SELECT * FROM customers WHERE full_name LIKE ? OR phone_day LIKE ? OR email LIKE ? OR birth_date LIKE ? LIMIT 5',
+      [`%${query}%`, `%${query}%`, `%${query}%`, `%${query}%`]
     );
     return Response.json(rows);
   } catch (error) {
@@ -30,4 +30,8 @@ export async function GET(request) {
   }
 }
 
+// Add a function to end the pool when the server is shutting down
+export async function onShutdown() {
+  await pool.end();
+}
 // ... POST and DELETE functions would be similarly modified
