@@ -11,25 +11,45 @@ const pool = mysql.createPool({
 });
 // Search data in the database
 export async function GET(request) {
-  const { searchParams } = new URL(request.url);
+  console.log('Received GET request:', request.url);
+
+  const url = new URL(request.url);
+  console.log('Parsed URL:', url);
+
+  const { searchParams } = url;
+  console.log('Search params:', Object.fromEntries(searchParams));
+
   const query = searchParams.get('query');
   if (!query) {
     return new Response('Search query is required', { status: 400 });
   }
 
+  const searchTerms = query.trim().split(/\s+/).map(term => `%${term}%`);
+  const fullQuery = `%${query}%`;
+
   try {
-    // Use pool.query directly instead of getting a client
-    const [rows] = await pool.query(
-      `SELECT * FROM customers WHERE full_name LIKE ? 
-      OR phone_day LIKE ? 
-      OR email LIKE ? 
-      OR birthdate LIKE ? 
-      OR first_name LIKE ?
-      OR last_name LIKE ?
-      LIMIT 5
-      `,
-      [`%${query}%`, `%${query}%`, `%${query}%`, `%${query}%`, `%${query}%`, `%${query}%`]
-    );
+    let sqlQuery = `
+      SELECT * FROM customers 
+      WHERE (first_name LIKE ? AND last_name LIKE ?)
+      OR full_name LIKE ?
+      OR phone_day LIKE ?
+      OR email LIKE ?
+      OR birthdate LIKE ?
+      OR customer_id LIKE ?
+      LIMIT 10
+    `;
+
+    const params = [
+      searchTerms[0] || '', 
+      searchTerms[1] || '', 
+      fullQuery, 
+      fullQuery, 
+      fullQuery, 
+      fullQuery, 
+      fullQuery
+    ];
+
+    const [rows] = await pool.query(sqlQuery, params);
     return Response.json(rows);
   } catch (error) {
     console.error('Error searching data:', error);

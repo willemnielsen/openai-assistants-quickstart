@@ -1,4 +1,5 @@
 export interface Customer {
+  id: number;
   gender: 'male' | 'female' | 'other';
   birthdate: string;
   first_name: string;

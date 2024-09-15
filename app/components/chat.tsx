@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, forwardRef, useImperativeHandle } from "react";
 import styles from "./chat.module.css";
 import { AssistantStream } from "openai/lib/AssistantStream";
 import Markdown from "react-markdown";
@@ -74,9 +74,9 @@ type ChatProps = {
   ) => Promise<string>;
 };
 
-const Chat = ({
+const Chat = forwardRef(({
   functionCallHandler = () => Promise.resolve(""), // default to return empty string
-}: ChatProps) => {
+}: ChatProps, ref) => {
   const [userInput, setUserInput] = useState("");
   const [messages, setMessages] = useState([]);
   const [inputDisabled, setInputDisabled] = useState(false);
@@ -89,7 +89,6 @@ const Chat = ({
   useEffect(() => {
     scrollToBottom();
   }, [messages]);
-
   // create a new threadID when chat component created
   useEffect(() => {
     const createThread = async () => {
@@ -293,6 +292,12 @@ const Chat = ({
     
   }
 
+  useImperativeHandle(ref, () => ({
+    appendMessage: (role, text) => {
+      setMessages((prevMessages) => [...prevMessages, { role, text }]);
+    }
+  }));
+
   return (
     <div className={styles.chatContainer}>
       <div className={styles.messages}>
@@ -322,6 +327,6 @@ const Chat = ({
       </form>
     </div>
   );
-};
+});
 
 export default Chat;

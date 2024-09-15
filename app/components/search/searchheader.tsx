@@ -2,13 +2,19 @@ import React, { useCallback, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch } from '@fortawesome/free-solid-svg-icons'
 import styles from './popup.module.css'
+import { KeyboardEvent } from 'react'
 
-function SearchHeader({ onClose, onSearchResults }: { onClose: () => void, onSearchResults: (data: any) => void }) {
+function SearchHeader({ onClose, onSearchResults, onKeyNavigation }: { 
+  onClose: () => void, 
+  onSearchResults: (data: any) => void,
+  onKeyNavigation: (direction: 'up' | 'down' | 'enter') => void 
+}) {
   const [searchQuery, setSearchQuery] = useState('');
 
   const handleSearch = useCallback(async (query: string) => {
     try {
-      const response = await fetch(`/api/search?query=${encodeURIComponent(query)}`);
+      const encodedQuery = encodeURIComponent(query);
+      const response = await fetch(`/api/search?query=${encodedQuery}`);
       if (!response.ok) {
         throw new Error('Search request failed');
       }
@@ -29,6 +35,20 @@ function SearchHeader({ onClose, onSearchResults }: { onClose: () => void, onSea
     handleSearch(query);
   };
 
+  const handleKeyDown = (e: KeyboardEvent<HTMLInputElement>) => {
+    console.log('Key pressed in SearchHeader:', e.key);
+    if (e.key === 'ArrowUp') {
+      console.log('Navigating up');
+      onKeyNavigation('up');
+    } else if (e.key === 'ArrowDown') {
+      console.log('Navigating down');
+      onKeyNavigation('down');
+    } else if (e.key === 'Enter') {
+      console.log('Enter pressed');
+      onKeyNavigation('enter');
+    }
+  };
+
   return (
     <header className={styles.popupHeader}>
       <FontAwesomeIcon icon={faSearch} className={styles.searchIcon} />
@@ -38,6 +58,7 @@ function SearchHeader({ onClose, onSearchResults }: { onClose: () => void, onSea
         autoFocus
         value={searchQuery}
         onChange={handleInputChange}
+        onKeyDown={handleKeyDown}
       />
       <button className={styles.close} onClick={onClose}>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width={27} height={27}>

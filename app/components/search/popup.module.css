@@ -79,7 +79,7 @@
   color: rgb(78, 78, 78);
 }
 
-.searchContent {
+.searchList {
   display: flex-column;
   padding: 15px;
   border-top: 1px solid var(--input-text);
@@ -89,23 +89,26 @@
   display: flex;
   flex-direction: row;
   padding: 5px;
+  padding-right: 10px;
   gap: 20px;
   color: var(--regular-text);
   align-items: center;
   border-radius: 5px;
   cursor: pointer;
+  border: 2px solid transparent;
+  margin-right: 5px;
 }
 
-/* .searchItem:last-child {
-  gap: 20px;
-} */
+.selected {
+  border: 2px solid var(--border-focus);
+}
 
 .searchItem:hover {
   background-color: var(--hover);
   transition: background-color 0.5s ease;
 }
 
-.searchItem:not(:hover) {
+.searchItem:not(:hover):not(.selected) {
   background-color: transparent;
   transition: background-color 0.5s ease;
 }
@@ -143,4 +146,3 @@
   opacity: 1;
   margin-top: 2px;
 }
-

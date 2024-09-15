@@ -9,7 +9,7 @@ const SearchBar = ({ placeholder = "Search...", onClick }) => {
 
   const handleShow = () => {
     setShowPopup(true);
-    console.log("clicked!")
+     ("clicked!")
   }
   const handleClose = () => setShowPopup(false);
 
@@ -20,7 +20,7 @@ const SearchBar = ({ placeholder = "Search...", onClick }) => {
   const handleSearch = (e) => {
     e.preventDefault();
     // Do something with the searchQuery (e.g., send it to a search API)
-    console.log('Searching for:', searchQuery);
+     ('Searching for:', searchQuery);
   };
 
   return (

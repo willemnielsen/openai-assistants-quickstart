@@ -56,3 +56,23 @@
   align-items: center;
   background-color: #f0f0f0;
 }
+
+.navbar {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  padding: 40px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar > *:first-child {
+  margin-right: auto;
+}
+
+.navbar > *:nth-child(2) {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
